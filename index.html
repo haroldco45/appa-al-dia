@@ -1,0 +1,799 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>APPA al Día</title>
+<meta name="description" content="Seguimiento ciudadano a la derogatoria de las Áreas de Protección para la Producción de Alimentos (APPA) en Colombia. Noticias reales que se actualizan solas.">
+<meta name="theme-color" content="#0c1b14">
+<meta property="og:title" content="APPA al Día — ¿Qué pasa con la tierra para producir comida?">
+<meta property="og:description" content="Región por región: qué APPA ya se derogaron, cuáles siguen y lo último en noticias.">
+<meta property="og:image" content="https://img.lalr.co/cms/2026/10/24171659/Derogan-las-Appa-en-Suroeste-antioqueno.jpg?size=sm&ratio=sq&f=jpg">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --suelo:#0c1b14; --suelo2:#12271d; --suelo3:#1a3528;
+  --crema:#f5efe1; --crema2:#d9d1bd; --tenue:#9fae9f;
+  --maiz:#f2b632; --maiz2:#ffd36e;
+  --barro:#e0603a; --hoja:#58c47f; --cielo:#7cc4e8;
+  --linea:rgba(245,239,225,.12);
+  --r:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--suelo);color:var(--crema);font:16px/1.55 "Instrument Sans",system-ui,sans-serif;overflow-x:hidden}
+a{color:inherit}
+img{display:block;max-width:100%}
+h1,h2,h3,.disp{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.05;letter-spacing:-.02em}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+section{padding:56px 0}
+.kicker{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--maiz);font-weight:700}
+h2{font-size:clamp(1.9rem,5.5vw,3rem);margin:.35em 0 .3em}
+.lead{color:var(--crema2);max-width:62ch;font-size:1.05rem}
+
+/* Barra superior */
+.top{position:sticky;top:0;z-index:50;background:rgba(12,27,20,.86);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--linea)}
+.top .wrap{display:flex;align-items:center;gap:12px;height:58px}
+.marca{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:800;font-size:1.15rem;text-decoration:none;white-space:nowrap}
+.marca b{color:var(--maiz)}
+.vivo{display:inline-flex;align-items:center;gap:7px;font-size:.75rem;font-weight:700;letter-spacing:.08em;color:var(--crema2);text-transform:uppercase}
+.vivo i{width:9px;height:9px;border-radius:50%;background:var(--barro);box-shadow:0 0 0 0 rgba(224,96,58,.7);animation:latido 1.6s infinite}
+@keyframes latido{0%{box-shadow:0 0 0 0 rgba(224,96,58,.7)}70%{box-shadow:0 0 0 12px rgba(224,96,58,0)}100%{box-shadow:0 0 0 0 rgba(224,96,58,0)}}
+.top .esp{flex:1}
+.btn{appearance:none;border:0;cursor:pointer;font:700 .9rem "Instrument Sans",system-ui,sans-serif;border-radius:999px;padding:10px 16px;background:var(--maiz);color:#1b1404;text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:transform .15s, background .2s}
+.btn:hover{transform:translateY(-1px);background:var(--maiz2)}
+.btn:active{transform:scale(.97)}
+.btn.sec{background:transparent;color:var(--crema);box-shadow:inset 0 0 0 1.5px var(--linea)}
+.btn.sec:hover{box-shadow:inset 0 0 0 1.5px var(--crema2)}
+.btn .giro{width:14px;height:14px;border-radius:50%;border:2.5px solid currentColor;border-right-color:transparent;display:none}
+.btn.cargando .giro{display:inline-block;animation:gira .8s linear infinite}
+@keyframes gira{to{transform:rotate(360deg)}}
+nav.menu{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:0 16px 10px;max-width:1120px;margin:0 auto}
+nav.menu::-webkit-scrollbar{display:none}
+nav.menu a{flex:none;text-decoration:none;font-size:.85rem;font-weight:600;color:var(--crema2);padding:6px 12px;border-radius:999px;background:var(--suelo2)}
+nav.menu a:hover,nav.menu a.on{background:var(--crema);color:var(--suelo)}
+
+/* Portada */
+.portada{position:relative;min-height:min(88vh,760px);display:flex;align-items:flex-end;overflow:hidden;padding:0}
+.fotos{position:absolute;inset:0;background:radial-gradient(120% 90% at 80% 10%,#2f5a3e 0,#12271d 45%,#0c1b14 100%)}
+.fotos figure{position:absolute;inset:0;opacity:0;transition:opacity 1.4s ease}
+.fotos figure.on{opacity:1}
+.fotos img{width:100%;height:100%;object-fit:cover;transform:scale(1.08);animation:none}
+.fotos figure.on img{animation:kb 9s ease-out forwards}
+@keyframes kb{from{transform:scale(1.16) translate(1.5%,1%)}to{transform:scale(1.02) translate(0,0)}}
+.portada::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,27,20,.25) 0%,rgba(12,27,20,.55) 45%,var(--suelo) 96%)}
+.portada .wrap{position:relative;z-index:2;padding-bottom:42px;width:100%}
+.portada h1{font-size:clamp(2.6rem,10vw,6.2rem);font-weight:800;max-width:11ch;text-wrap:balance}
+.portada h1 em{font-style:normal;color:var(--maiz)}
+.portada p.sub{font-size:clamp(1.05rem,2.6vw,1.3rem);max-width:46ch;color:var(--crema);margin:16px 0 22px;text-shadow:0 1px 18px rgba(0,0,0,.5)}
+.pie-foto{display:block;margin-top:18px;font-size:.8rem;color:var(--crema2);max-width:60ch;text-decoration:none;opacity:.9}
+.pie-foto:hover{text-decoration:underline}
+.puntos{display:flex;gap:6px;margin-top:12px}
+.puntos button{width:26px;height:4px;border:0;border-radius:4px;background:rgba(245,239,225,.3);cursor:pointer;padding:0}
+.puntos button.on{background:var(--maiz)}
+
+/* Ticker */
+.ticker{background:var(--maiz);color:#1b1404;overflow:hidden;white-space:nowrap;font-weight:700;font-size:.92rem;border-block:1px solid #c58f12}
+.ticker .pista{display:inline-flex;gap:42px;padding:11px 0;animation:corre 60s linear infinite}
+.ticker:hover .pista{animation-play-state:paused}
+.ticker a{text-decoration:none}
+.ticker a::before{content:"|";margin-right:14px;opacity:.5}
+@keyframes corre{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* Hoy */
+.hoy{background:linear-gradient(180deg,var(--suelo) 0,var(--suelo2) 100%)}
+.hoy-cab{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:14px}
+.reloj{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:700;font-size:clamp(1.2rem,3.5vw,1.6rem);color:var(--crema2)}
+.reloj b{color:var(--crema)}
+.cifras{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:26px 0}
+.cifra{background:var(--suelo3);border-radius:var(--r);padding:18px;position:relative;overflow:hidden}
+.cifra .n{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:800;font-size:clamp(1.9rem,6vw,2.6rem);line-height:1}
+.cifra .t{font-size:.86rem;color:var(--crema2);margin-top:6px}
+.cifra.a .n{color:var(--barro)} .cifra.b .n{color:var(--maiz)} .cifra.c .n{color:var(--hoja)} .cifra.d .n{color:var(--cielo)}
+.barra{height:14px;border-radius:99px;background:var(--suelo3);overflow:hidden;display:flex;margin:6px 0 8px}
+.barra span{display:block;height:100%;width:0;transition:width 1.6s cubic-bezier(.2,.8,.2,1)}
+.barra .der{background:var(--barro)} .barra .pen{background:var(--maiz)}
+.leyenda{display:flex;flex-wrap:wrap;gap:16px;font-size:.84rem;color:var(--crema2)}
+.leyenda i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.estado-busqueda{margin:26px 0 12px;font-size:.88rem;color:var(--tenue);display:flex;align-items:center;gap:10px}
+.estado-busqueda .ok{color:var(--hoja);font-weight:700}
+.lista-hoy{display:grid;gap:12px}
+.nota-hoy{display:grid;grid-template-columns:110px 1fr;gap:14px;background:var(--suelo);border:1px solid var(--linea);border-radius:var(--r);overflow:hidden;text-decoration:none;transition:transform .2s,border-color .2s;animation:sube .5s both}
+.nota-hoy:hover{transform:translateY(-2px);border-color:var(--maiz)}
+.nota-hoy .im{background:var(--suelo3) center/cover no-repeat;min-height:100px}
+.nota-hoy .tx{padding:12px 14px 12px 0}
+.nota-hoy h3{font-size:1.06rem;font-weight:700;line-height:1.2}
+.meta{font-size:.78rem;color:var(--tenue);margin-top:6px}
+.meta b{color:var(--maiz);font-weight:700}
+.nuevo{display:inline-block;background:var(--barro);color:#fff;font-size:.68rem;font-weight:800;letter-spacing:.08em;padding:2px 7px;border-radius:5px;margin-right:6px;text-transform:uppercase}
+@keyframes sube{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+
+/* Regiones */
+.regiones{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-top:28px}
+.reg{border-radius:22px;overflow:hidden;background:var(--suelo2);border:1px solid var(--linea);display:flex;flex-direction:column;transition:transform .25s}
+.reg:hover{transform:translateY(-4px)}
+.reg .ft{position:relative;height:190px;background:var(--suelo3) center/cover no-repeat}
+.reg .ft.sin{background:linear-gradient(135deg,#2a4a37,#12271d);display:flex;align-items:center;justify-content:center}
+.reg .ft.sin .agua{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:800;font-size:2.4rem;text-align:center;padding:0 16px;color:rgba(245,239,225,.14)}
+.sello{position:absolute;left:14px;top:14px;font-weight:800;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;padding:6px 10px;border-radius:8px}
+.sello.derogada{background:var(--barro);color:#fff}
+.sello.vigente{background:var(--maiz);color:#1b1404}
+.sello.proceso{background:var(--cielo);color:#08202c}
+.reg .cu{padding:16px 18px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
+.reg h3{font-size:1.4rem}
+.reg .ha{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:800;font-size:1.9rem;color:var(--maiz)}
+.reg .ha small{font-size:.9rem;color:var(--crema2);font-weight:600;font-family:"Instrument Sans",system-ui,sans-serif}
+.reg p{font-size:.92rem;color:var(--crema2)}
+.reg .mun{font-size:.82rem;color:var(--tenue)}
+.reg .fe{margin-top:auto;padding-top:8px;border-top:1px solid var(--linea);font-size:.84rem}
+.reg .fe b{color:var(--crema)}
+
+/* Explicación */
+.expli{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center}
+.expli .foto{border-radius:24px;overflow:hidden;aspect-ratio:4/3;background:var(--suelo3) center/cover}
+.pasos{display:grid;gap:12px;margin-top:20px}
+.paso{display:grid;grid-template-columns:44px 1fr;gap:12px;align-items:start}
+.paso .num{width:44px;height:44px;border-radius:12px;background:var(--maiz);color:#1b1404;font:800 1.2rem "Bricolage Grotesque",system-ui,sans-serif;display:flex;align-items:center;justify-content:center}
+.paso h3{font-size:1.1rem;margin-bottom:2px}
+.paso p{color:var(--crema2);font-size:.95rem}
+
+/* Línea de tiempo */
+.tiempo{position:relative;margin-top:30px;padding-left:28px}
+.tiempo::before{content:"";position:absolute;left:8px;top:4px;bottom:4px;width:3px;border-radius:3px;background:linear-gradient(var(--hoja),var(--maiz),var(--barro))}
+.hito{position:relative;padding:0 0 26px 14px;opacity:0;transform:translateX(-10px);transition:.6s}
+.hito.ver{opacity:1;transform:none}
+.hito::before{content:"";position:absolute;left:-26px;top:5px;width:15px;height:15px;border-radius:50%;background:var(--suelo);border:3px solid var(--maiz)}
+.hito.rojo::before{border-color:var(--barro);background:var(--barro)}
+.hito.verde::before{border-color:var(--hoja)}
+.hito.proximo::before{border-style:dashed;border-color:var(--crema2)}
+.hito .f{font-weight:800;color:var(--maiz);font-size:.82rem;letter-spacing:.06em;text-transform:uppercase}
+.hito h3{font-size:1.18rem;margin:3px 0}
+.hito p{color:var(--crema2);font-size:.94rem;max-width:64ch}
+
+/* Debate */
+.debate{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px}
+.lado{border-radius:22px;padding:22px;border:1px solid var(--linea)}
+.lado.a{background:linear-gradient(160deg,rgba(224,96,58,.16),transparent 60%)}
+.lado.b{background:linear-gradient(160deg,rgba(88,196,127,.16),transparent 60%)}
+.lado h3{font-size:1.35rem;margin-bottom:12px}
+.lado ul{list-style:none;display:grid;gap:10px}
+.lado li{padding-left:22px;position:relative;color:var(--crema2);font-size:.95rem}
+.lado li::before{content:"—";position:absolute;left:0;opacity:.5}
+.lado .quien{margin-top:14px;font-size:.82rem;color:var(--tenue)}
+.nota-neutral{margin-top:16px;font-size:.88rem;color:var(--tenue);max-width:70ch}
+
+/* Videos */
+.videos{display:grid;grid-auto-flow:column;grid-auto-columns:min(78vw,340px);gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 2px 14px;margin-top:22px;scrollbar-width:thin}
+.vid{scroll-snap-align:start;border-radius:18px;overflow:hidden;background:var(--suelo2);border:1px solid var(--linea)}
+.vid .marco{position:relative;aspect-ratio:16/9;background:#000 center/cover;cursor:pointer}
+.vid .marco::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 55%,rgba(0,0,0,.55))}
+.vid .play{position:absolute;left:14px;bottom:12px;z-index:2;background:var(--barro);color:#fff;font:800 .78rem "Instrument Sans",system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:7px 12px;border-radius:8px;transition:transform .2s}
+.vid .marco:hover .play{transform:scale(1.06)}
+.vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vid p{padding:12px 14px;font-size:.92rem;font-weight:600;line-height:1.3}
+
+/* Noticias */
+.filtro{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 8px}
+.filtro input{flex:1;min-width:220px;border:0;border-radius:14px;padding:13px 16px;background:var(--suelo2);color:var(--crema);font:500 1rem "Instrument Sans",system-ui,sans-serif;outline:2px solid transparent;transition:outline-color .2s}
+.filtro input:focus{outline-color:var(--maiz)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.chips button{border:0;cursor:pointer;border-radius:999px;padding:7px 13px;font:600 .84rem "Instrument Sans",system-ui,sans-serif;background:var(--suelo2);color:var(--crema2)}
+.chips button.on{background:var(--crema);color:var(--suelo)}
+.notas{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px}
+.nota{border-radius:20px;overflow:hidden;background:var(--suelo2);text-decoration:none;display:flex;flex-direction:column;border:1px solid var(--linea);transition:transform .2s,border-color .2s;animation:sube .5s both}
+.nota:hover{transform:translateY(-3px);border-color:var(--maiz)}
+.nota .im{aspect-ratio:16/9;background:var(--suelo3) center/cover no-repeat}
+.nota .im.sin{background:linear-gradient(135deg,#24402f,#152b20);display:flex;align-items:flex-end;padding:12px}
+.nota .im.sin span{font:800 1.05rem "Bricolage Grotesque",system-ui,sans-serif;color:rgba(245,239,225,.35)}
+.nota .cu{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.nota h3{font-size:1.08rem;line-height:1.22}
+.nota p{font-size:.88rem;color:var(--crema2)}
+.mas{display:flex;justify-content:center;margin-top:22px}
+.vacio{padding:26px;border-radius:18px;background:var(--suelo2);color:var(--crema2);text-align:center}
+
+/* Compartir y pie */
+.cta{background:linear-gradient(120deg,#2b5a3c,#12271d 70%);border-radius:28px;padding:30px 24px;display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between}
+.cta h2{font-size:clamp(1.6rem,4.5vw,2.4rem);margin:0}
+footer{padding:40px 0 60px;color:var(--tenue);font-size:.86rem;border-top:1px solid var(--linea);margin-top:40px}
+footer .dev{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:700;font-size:1.1rem;color:var(--crema)}
+footer .dev b{color:var(--maiz)}
+footer ul{list-style:none;display:grid;gap:4px;margin-top:10px}
+footer a:hover{color:var(--crema)}
+.aviso-top{position:fixed;left:50%;bottom:18px;transform:translate(-50%,140%);background:var(--crema);color:var(--suelo);font-weight:700;padding:12px 18px;border-radius:14px;z-index:90;transition:transform .35s;box-shadow:0 10px 30px rgba(0,0,0,.35);max-width:calc(100% - 32px);text-align:center}
+.aviso-top.ver{transform:translate(-50%,0)}
+
+@media (max-width:760px){
+  .expli,.debate{grid-template-columns:1fr}
+  .expli .foto{order:-1}
+  .nota-hoy{grid-template-columns:92px 1fr}
+  .top .vivo span{display:none}
+  section{padding:44px 0}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  .hito{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="marca" href="#inicio">APPA <b>al Día</b></a>
+    <span class="vivo"><i></i><span>Seguimiento en vivo</span></span>
+    <span class="esp"></span>
+    <button class="btn" id="btnActualizar" type="button"><span class="giro"></span>Actualizar</button>
+  </div>
+  <nav class="menu" id="menu">
+    <a href="#hoy">Hoy</a>
+    <a href="#regiones">Región por región</a>
+    <a href="#que-son">¿Qué son?</a>
+    <a href="#cronologia">Cronología</a>
+    <a href="#debate">Las dos caras</a>
+    <a href="#videos">Videos</a>
+    <a href="#noticias">Noticias</a>
+  </nav>
+</header>
+
+<section class="portada" id="inicio">
+  <div class="fotos" id="fotos"></div>
+  <div class="wrap">
+    <span class="kicker">Seguimiento ciudadano · Colombia 2026</span>
+    <h1>La tierra para la <em>comida</em> cambia de reglas</h1>
+    <p class="sub">El Gobierno está derogando, región por región, las Áreas de Protección para la Producción de Alimentos (APPA). Aquí ves qué se cayó, qué sigue y lo último que dicen las noticias.</p>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+      <a class="btn" href="#hoy">Ver lo de hoy</a>
+      <a class="btn sec" href="#regiones">Región por región</a>
+    </div>
+    <a class="pie-foto" id="pieFoto" href="#noticias" target="_blank" rel="noopener"></a>
+    <div class="puntos" id="puntos"></div>
+  </div>
+</section>
+
+<div class="ticker" aria-label="Últimos titulares"><div class="pista" id="ticker"></div></div>
+
+<section class="hoy" id="hoy">
+  <div class="wrap">
+    <div class="hoy-cab">
+      <div>
+        <span class="kicker">Hoy</span>
+        <h2 id="hoyTitulo">Lo de hoy</h2>
+      </div>
+      <div class="reloj" id="reloj"></div>
+    </div>
+
+    <div class="cifras">
+      <div class="cifra a"><div class="n" data-contar="198601">0</div><div class="t">hectáreas ya liberadas de la figura APPA</div></div>
+      <div class="cifra b"><div class="n" data-contar="3">0</div><div class="t">regiones con APPA derogadas</div></div>
+      <div class="cifra c"><div class="n" data-contar="3">0</div><div class="t">regiones pendientes: Córdoba, Tolima y Santander</div></div>
+      <div class="cifra d"><div class="n" id="diasUltima">0</div><div class="t">días desde la última derogatoria (Suroeste, 24 oct)</div></div>
+    </div>
+
+    <div class="barra" aria-label="Avance de la derogatoria"><span class="der" id="bDer"></span><span class="pen" id="bPen"></span></div>
+    <div class="leyenda">
+      <span><i style="background:var(--barro)"></i>Derogadas: 198.601 ha</span>
+      <span><i style="background:var(--maiz)"></i>Con cifra conocida que siguen: 751.697 ha (Córdoba y Chucurí)</span>
+      <span>Tolima sigue vigente, sin cifra total publicada</span>
+    </div>
+
+    <div class="estado-busqueda" id="estadoBusqueda">Buscando noticias en vivo…</div>
+    <div class="lista-hoy" id="listaHoy"></div>
+  </div>
+</section>
+
+<section id="regiones">
+  <div class="wrap">
+    <span class="kicker">El tablero</span>
+    <h2>Región por región</h2>
+    <p class="lead">Dónde se declararon APPA, cuántas hectáreas cubrían y en qué va cada una. Las cifras vienen de las resoluciones y de lo publicado por los medios.</p>
+    <div class="regiones" id="tablero"></div>
+  </div>
+</section>
+
+<section id="que-son" style="background:var(--suelo2)">
+  <div class="wrap expli">
+    <div>
+      <span class="kicker">En palabras sencillas</span>
+      <h2>¿Qué son las APPA?</h2>
+      <p class="lead">Son zonas rurales que el Ministerio de Agricultura marcó para que su mejor uso fuera producir alimentos. Las creó el artículo 32 del Plan Nacional de Desarrollo (Ley 2294 de 2023) del gobierno Petro.</p>
+      <div class="pasos">
+        <div class="paso"><div class="num">1</div><div><h3>La UPRA estudia el suelo</h3><p>La Unidad de Planificación Rural Agropecuaria identifica las tierras más fértiles y arma un documento técnico.</p></div></div>
+        <div class="paso"><div class="num">2</div><div><h3>El Ministerio las declara</h3><p>Por resolución, esas tierras quedan como "determinante de ordenamiento de nivel 2": una norma que pesa más que el plan de ordenamiento (POT) del municipio.</p></div></div>
+        <div class="paso"><div class="num">3</div><div><h3>El municipio debe acatarlas</h3><p>El concejo ya no decide solo: en esas zonas quedan limitadas actividades como minería, vivienda o proyectos que cambien el uso agrícola.</p></div></div>
+        <div class="paso"><div class="num">4</div><div><h3>¿Y si se derogan?</h3><p>La decisión sobre el uso del suelo vuelve a los alcaldes y concejos a través de su POT. Las normas ambientales siguen vigentes.</p></div></div>
+      </div>
+    </div>
+    <div class="foto" id="fotoExpli" role="img" aria-label="Campo cultivado en zona de APPA"></div>
+  </div>
+</section>
+
+<section id="cronologia">
+  <div class="wrap">
+    <span class="kicker">Cronología</span>
+    <h2>Cómo llegamos hasta aquí</h2>
+    <div class="tiempo" id="tiempo"></div>
+  </div>
+</section>
+
+<section id="debate" style="background:var(--suelo2)">
+  <div class="wrap">
+    <span class="kicker">Las dos caras</span>
+    <h2>¿Por qué unos aplauden y otros protestan?</h2>
+    <p class="lead">Lo que dicen los que defienden la derogatoria y los que la rechazan. Usted saca sus propias conclusiones.</p>
+    <div class="debate">
+      <div class="lado a">
+        <h3>Quienes apoyan derogarlas</h3>
+        <ul>
+          <li>Las APPA pasaban por encima de los concejos y alcaldes, que son quienes deben decidir el uso del suelo.</li>
+          <li>Limitaban la propiedad privada y la libertad de empresa en predios de particulares.</li>
+          <li>Generaban incertidumbre, desvalorizaban predios y frenaban vivienda, infraestructura y minería.</li>
+          <li>La revisión técnica de la UPRA encontró errores de cartografía e inconsistencias con lo que de verdad se siembra.</li>
+          <li>Hubo vacíos en la consulta previa con las comunidades.</li>
+        </ul>
+        <p class="quien">Gobierno De la Espriella, MinAgricultura (Indalecio Dangond), Gobernación de Antioquia, gremios de construcción y minería, congresistas como Daniel Briceño, Sara Castellanos y Carol Borda.</p>
+      </div>
+      <div class="lado b">
+        <h3>Quienes rechazan la derogatoria</h3>
+        <ul>
+          <li>Protegían las tierras más fértiles para que Colombia produzca su propia comida.</li>
+          <li>Eran un escudo de los campesinos frente a la minería y la expansión urbana.</li>
+          <li>Sin ellas, cerca de un millón de hectáreas en unos 59 municipios quedan sin esa protección.</li>
+          <li>Derogarlas sin ofrecer una alternativa es un retroceso para la seguridad alimentaria.</li>
+          <li>En el norte del Tolima, unos 1.100 campesinos interpusieron una tutela para defenderlas.</li>
+        </ul>
+        <p class="quien">Expresidente Gustavo Petro, senadora Aida Quilcué, organizaciones campesinas y ambientales, productores de zonas como San Juan del Cesar.</p>
+      </div>
+    </div>
+    <p class="nota-neutral">Ojo: derogar una APPA no autoriza por sí solo la minería ni la urbanización. Cualquier cambio de uso sigue dependiendo del POT de cada municipio y de las licencias ambientales.</p>
+  </div>
+</section>
+
+<section id="videos">
+  <div class="wrap">
+    <span class="kicker">Videos reales</span>
+    <h2>Mírelo explicado</h2>
+    <p class="lead">Videos de medios e instituciones sobre las APPA. El robot agrega los nuevos que vayan saliendo.</p>
+    <div class="videos" id="videos"></div>
+  </div>
+</section>
+
+<section id="noticias" style="padding-top:20px">
+  <div class="wrap">
+    <span class="kicker">Noticias</span>
+    <h2>Todo lo que se ha publicado</h2>
+    <p class="lead" id="infoRobot">Noticias reales de medios colombianos. Se actualizan solas.</p>
+    <div class="filtro">
+      <input id="buscar" type="search" placeholder="Buscar: Córdoba, Tolima, Dangond, tutela…" aria-label="Buscar en las noticias">
+    </div>
+    <div class="chips" id="chips">
+      <button class="on" data-f="">Todas</button>
+      <button data-f="guajira|urumita">La Guajira</button>
+      <button data-f="sabana|sopó|nemocón|cogua|tenjo|tabio|cundinamarca">Sabana Centro</button>
+      <button data-f="suroeste|antioqu|fredonia|concordia|venecia">Suroeste</button>
+      <button data-f="córdoba|cordoba">Córdoba</button>
+      <button data-f="tolima">Tolima</button>
+      <button data-f="santander|chucurí|chucuri">Santander</button>
+    </div>
+    <div class="notas" id="notas"></div>
+    <div class="mas"><button class="btn sec" id="verMas" type="button">Ver más noticias</button></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="cta">
+      <div>
+        <span class="kicker" style="color:var(--crema)">Pásela</span>
+        <h2>Que su gente sepa qué pasa con la tierra</h2>
+      </div>
+      <a class="btn" id="compartir" href="#" target="_blank" rel="noopener">Compartir por WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="dev">Desarrollada por <b>Vibras Positivas HM</b></div>
+    <p>¿Quiere una app así para su negocio, su causa o su municipio? <a href="https://wa.me/573117700431" target="_blank" rel="noopener">Escríbale a Harold por WhatsApp: 311 770 0431</a></p>
+    <p style="margin-top:14px">App ciudadana e informativa. No pertenece a ninguna entidad del Estado ni a ningún partido. Cada noticia lleva al medio que la publicó.</p>
+    <p style="margin-top:14px"><b style="color:var(--crema2)">Fuentes base:</b></p>
+    <ul>
+      <li><a href="https://www.larepublica.co/economia/minagricultura-deroga-las-llamadas-appa-de-petro-en-el-suroeste-antioqueno-4510426" target="_blank" rel="noopener">La República — derogatoria en el Suroeste antioqueño</a></li>
+      <li><a href="https://www.agronegocios.co/agricultura/minagricultura-libera-primera-area-restringida-con-las-llamadas-appa-de-petro-4497040" target="_blank" rel="noopener">Agronegocios — derogatoria en el sur de La Guajira</a></li>
+      <li><a href="https://www.elespectador.com/bogota/gobierno-derogo-las-appa-en-cinco-municipios-de-sabana-centro/" target="_blank" rel="noopener">El Espectador — derogatoria en Sabana Centro</a></li>
+      <li><a href="https://upra.gov.co/es-co/node/1764" target="_blank" rel="noopener">UPRA — declaratoria de APPA en La Guajira</a></li>
+      <li><a href="https://www.lasillavacia.com/?p=435545" target="_blank" rel="noopener">La Silla Vacía — anuncio del presidente electo</a></li>
+      <li><a href="https://www.contextoganadero.com/politica/pulso-sobre-uso-del-suelo-comision-tercera-aprobo-en-primer-debate-eliminacion-de-las-appa" target="_blank" rel="noopener">Contexto Ganadero — primer debate en la Cámara</a></li>
+    </ul>
+    <p style="margin-top:14px" id="versionRobot"></p>
+  </div>
+</footer>
+
+<div class="aviso-top" id="aviso"></div>
+
+<script>
+(() => {
+'use strict';
+
+/* ======= Datos editables (Harold: aquí se actualiza el estado de cada región) ======= */
+const REGIONES = [
+  {
+    nombre: 'Sur de La Guajira', estado: 'derogada', ha: 79961,
+    foto: 'https://img.lalr.co/cms/2025/07/25085449/ALLL.jpg?w=400&r=1_1',
+    municipios: 'Urumita, La Jagua del Pilar, Villanueva, El Molino, San Juan del Cesar, Fonseca, Distracción y Barrancas',
+    texto: 'Fue la primera APPA del país (Resolución 161 del 20 de junio de 2024, modificada en 2025).',
+    fecha: 'Derogada el 2 de octubre de 2026, firmada en la plaza de Urumita.'
+  },
+  {
+    nombre: 'Sabana Centro, Cundinamarca', estado: 'derogada', ha: 15839,
+    foto: 'https://www.elespectador.com/wp-content/uploads/elespectador/FZTG4URFWJFQFNGL7BO27LCTZI.jpg?resize=1200,630',
+    municipios: 'Sopó, Nemocón, Cogua, Tenjo y Tabio',
+    texto: 'Se cayeron las resoluciones 507 de 2023; 266 y 393 de 2025; y 116, 153 y 218 de 2026.',
+    fecha: 'Derogada el 5 de octubre de 2026.'
+  },
+  {
+    nombre: 'Suroeste antioqueño', estado: 'derogada', ha: 102801,
+    foto: 'https://img.lalr.co/cms/2026/10/24171659/Derogan-las-Appa-en-Suroeste-antioqueno.jpg?size=sm&ratio=sq&f=jpg',
+    municipios: '19 municipios, entre ellos Concordia (la primera de Antioquia), Fredonia y Venecia',
+    texto: 'Nueve resoluciones que cubrían cerca del 29 % del territorio de esos municipios. La UPRA reportó fallas de cartografía.',
+    fecha: 'Derogada el 24 de octubre de 2026, anunciada en Fredonia.'
+  },
+  {
+    nombre: 'Córdoba', estado: 'vigente', ha: 667034,
+    foto: '',
+    municipios: 'La APPA más grande del país',
+    texto: 'Resoluciones 242 de 2025 y 93 de 2026. El ministro Dangond anunció que es de las próximas en revisarse.',
+    fecha: 'Sigue vigente. Anunciada su derogatoria.'
+  },
+  {
+    nombre: 'Norte del Tolima', estado: 'vigente', ha: null,
+    foto: '',
+    municipios: 'Fresno, Herveo, Murillo, Palocabildo y otros municipios del norte',
+    texto: 'Resoluciones 352 de 2024 y 44, 45 y 52 de 2026. Unos 1.100 campesinos pusieron una tutela para defenderlas (dic. 2025).',
+    fecha: 'Sigue vigente. Anunciada su derogatoria.'
+  },
+  {
+    nombre: 'Chucurí, Santander', estado: 'proceso', ha: 84663,
+    foto: '',
+    municipios: 'San Vicente de Chucurí y El Carmen de Chucurí',
+    texto: 'Resolución 187 del 2 de julio de 2026: 84.662 hectáreas, el 41,56 % de los dos municipios.',
+    fecha: 'Hay proyecto de resolución para derogarla.'
+  }
+];
+
+const CRONOLOGIA = [
+  { f: '2023', c: 'verde', t: 'Nace la figura', p: 'El artículo 32 del Plan Nacional de Desarrollo (Ley 2294 de 2023) crea las APPA como norma de ordenamiento de nivel 2.' },
+  { f: '20 jun 2024', c: 'verde', t: 'Primera APPA del país', p: 'El gobierno Petro declara cerca de 80.000 hectáreas en ocho municipios del sur de La Guajira, con acto en Urumita.' },
+  { f: '2024 – 2025', c: '', t: 'Choque en Antioquia', p: 'La Resolución 377 de 2024 marca la zona de protección en el Suroeste. El gobernador Andrés Julián Rendón anuncia demanda. Luego llegan las APPA de Concordia, Venecia y Fredonia.' },
+  { f: 'Dic 2025', c: 'verde', t: 'Tutela campesina en Tolima', p: 'Cerca de 1.100 campesinos de ocho municipios del norte del Tolima interponen una tutela para defender las APPA.' },
+  { f: '27 abr 2026', c: '', t: 'Primer debate en la Cámara', p: 'La Comisión Tercera aprueba derogar el artículo 32 del Plan Nacional de Desarrollo.' },
+  { f: 'Jul 2026', c: '', t: 'El presidente electo da la orden', p: 'Abelardo de la Espriella anuncia que derogará las APPA. Petro responde defendiendo la protección de tierra fértil.' },
+  { f: '3 sep 2026', c: '', t: 'Primeros proyectos de derogatoria', p: 'MinAgricultura publica el proyecto para Sabana Centro. La senadora Aida Quilcué lo rechaza.' },
+  { f: '2 oct 2026', c: 'rojo', t: 'Cae la primera: La Guajira', p: 'El ministro Indalecio Dangond firma la derogatoria en la misma plaza de Urumita donde nació la primera APPA.' },
+  { f: '5 oct 2026', c: 'rojo', t: 'Cae Sabana Centro', p: 'Se derogan las APPA de Sopó, Nemocón, Cogua, Tenjo y Tabio: 15.839 hectáreas.' },
+  { f: '24 oct 2026', c: 'rojo', t: 'Cae el Suroeste antioqueño', p: '102.801 hectáreas en 19 municipios. Desde Fredonia, el ministro dice que siguen Córdoba y Tolima.' },
+  { f: 'Lo que viene', c: 'proximo', t: 'Córdoba, Tolima y Santander', p: 'El Gobierno dice que la meta es que no quede ninguna APPA en Colombia. Aquí verá cada paso.' }
+];
+
+const PROXIES = [
+  u => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u),
+  u => 'https://corsproxy.io/?url=' + encodeURIComponent(u),
+  u => 'https://api.codetabs.com/v1/proxy?quest=' + encodeURIComponent(u)
+];
+const TZ = 'America/Bogota';
+const ULTIMA_DEROGATORIA = '2026-10-24';
+
+/* ======= Utilidades ======= */
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const seguro = u => { try { const x = new URL(u); return /^https?:$/.test(x.protocol) ? x.href : ''; } catch { return ''; } };
+const fmtN = n => n.toLocaleString('es-CO');
+const diaBog = d => new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year:'numeric', month:'2-digit', day:'2-digit' }).format(d);
+const hoyBog = () => diaBog(new Date());
+const clave = t => String(t||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/\s[-|–]\s[^-|–]+$/,'').replace(/[^a-z0-9 ]/g,'').replace(/\s+/g,' ').trim().slice(0,90);
+const relevante = (t, d='') => {
+  const x = t + ' ' + d;
+  if (/protecci[oó]n para la producci[oó]n de alimentos|\bZPPA\b/i.test(x)) return true;
+  return /\bAPPA\b/i.test(x) && /aliment|agr[ií]col|agricultura|tierra|suelo|derog|minagricultura|ministr|campesin|hect[aá]rea|dangond|upra|ordenamiento|municipio/i.test(x);
+};
+function hace(fecha) {
+  const ms = Date.now() - new Date(fecha).getTime();
+  if (isNaN(ms)) return '';
+  const m = Math.round(ms / 60000);
+  if (m < 60) return m <= 1 ? 'hace un momento' : `hace ${m} min`;
+  const h = Math.round(m / 60);
+  if (h < 24) return `hace ${h} h`;
+  const d = Math.round(h / 24);
+  if (d < 31) return d === 1 ? 'ayer' : `hace ${d} días`;
+  return new Intl.DateTimeFormat('es-CO', { timeZone: TZ, day:'numeric', month:'short', year:'numeric' }).format(new Date(fecha));
+}
+function aviso(txt) {
+  const a = $('#aviso'); a.textContent = txt; a.classList.add('ver');
+  clearTimeout(aviso.t); aviso.t = setTimeout(() => a.classList.remove('ver'), 3200);
+}
+function conTiempo(p, ms) {
+  return Promise.race([p, new Promise((_, r) => setTimeout(() => r(new Error('tiempo')), ms))]);
+}
+
+/* ======= Estado ======= */
+let NOTICIAS = [];
+let VIDEOS = [];
+let robotFecha = null;
+const vistasArr = (() => { try { return JSON.parse(localStorage.getItem('appa_vistas') || '[]'); } catch { return []; } })();
+const primeraVez = !vistasArr.length;
+const vistasAntes = new Set(vistasArr);
+let mostrar = 12;
+let filtroChip = '';
+
+function unir(lista) {
+  const m = new Map(NOTICIAS.map(n => [clave(n.titulo), n]));
+  let nuevas = 0;
+  for (const n of lista) {
+    if (!n.titulo || !seguro(n.url)) continue;
+    const k = clave(n.titulo);
+    if (!k) continue;
+    const ya = m.get(k);
+    if (ya) { if (!ya.imagen && n.imagen) ya.imagen = n.imagen; continue; }
+    m.set(k, n); nuevas++;
+  }
+  NOTICIAS = [...m.values()].sort((a, b) => new Date(b.fecha) - new Date(a.fecha));
+  return nuevas;
+}
+
+/* ======= Fuentes ======= */
+async function cargarRobot() {
+  try {
+    const r = await fetch('noticias.json?t=' + Date.now(), { cache: 'no-store' });
+    const d = await r.json();
+    robotFecha = d.actualizado;
+    VIDEOS = d.videos || [];
+    unir(d.noticias || []);
+  } catch (e) { console.warn('noticias.json', e); }
+}
+
+async function porProxy(url) {
+  for (const p of PROXIES) {
+    try {
+      const r = await conTiempo(fetch(p(url)), 8000);
+      if (!r.ok) continue;
+      const t = await r.text();
+      if (t.includes('<item>')) return t;
+    } catch {}
+  }
+  throw new Error('sin proxy');
+}
+
+function leerRSS(xml, tipo) {
+  const doc = new DOMParser().parseFromString(xml, 'text/xml');
+  return [...doc.querySelectorAll('item')].map(it => {
+    const g = tag => it.getElementsByTagName(tag)[0]?.textContent?.trim() || '';
+    let url = g('link'), medio, imagen = '', titulo = g('title');
+    const desc = g('description').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    if (tipo === 'bing') {
+      try { const real = new URL(url).searchParams.get('url'); if (real) url = real; } catch {}
+      medio = g('News:Source');
+      imagen = g('News:Image');
+    } else {
+      medio = g('source');
+      if (medio && titulo.endsWith(' - ' + medio)) titulo = titulo.slice(0, -(medio.length + 3));
+    }
+    const f = new Date(g('pubDate'));
+    return { titulo, url, medio, imagen: seguro(imagen), resumen: tipo === 'bing' ? desc.slice(0, 240) : '', fecha: isNaN(f) ? new Date().toISOString() : f.toISOString(), vivo: true };
+  }).filter(n => relevante(n.titulo, n.resumen));
+}
+
+async function buscarEnVivo() {
+  const est = $('#estadoBusqueda');
+  est.innerHTML = 'Buscando noticias en vivo en medios colombianos…';
+  const q = 'APPA "Producción de Alimentos" OR "APPA" derogatoria';
+  const tareas = [
+    porProxy('https://www.bing.com/news/search?q=' + encodeURIComponent('APPA Áreas de Protección para la Producción de Alimentos') + '&format=rss&mkt=es-CO').then(x => leerRSS(x, 'bing')),
+    porProxy('https://news.google.com/rss/search?q=' + encodeURIComponent(q + ' when:14d') + '&hl=es-419&gl=CO&ceid=CO:es-419').then(x => leerRSS(x, 'google'))
+  ];
+  const res = await Promise.allSettled(tareas);
+  const encontradas = res.filter(r => r.status === 'fulfilled').flatMap(r => r.value);
+  const nuevas = unir(encontradas);
+  const hora = new Intl.DateTimeFormat('es-CO', { timeZone: TZ, hour: 'numeric', minute: '2-digit' }).format(new Date());
+  if (res.every(r => r.status === 'rejected')) {
+    est.innerHTML = `Búsqueda en vivo no disponible ahora. Mostrando lo que trajo el robot${robotFecha ? ' (' + esc(hace(robotFecha)) + ')' : ''}.`;
+  } else {
+    est.innerHTML = `<span class="ok">En vivo</span> Búsqueda hecha a las ${esc(hora)} · ${encontradas.length} resultados${nuevas ? ` · <b style="color:var(--maiz)">${nuevas} nuevas</b>` : ''}`;
+  }
+  return nuevas;
+}
+
+/* ======= Pintar ======= */
+let fotoIdx = 0, fotoTimer;
+function pintarFotos() {
+  const conFoto = NOTICIAS.filter(n => n.imagen).slice(0, 6);
+  const cont = $('#fotos'), pts = $('#puntos');
+  cont.innerHTML = conFoto.map((n, i) => `<figure class="${i === 0 ? 'on' : ''}"><img src="${esc(n.imagen)}" alt="" loading="${i ? 'lazy' : 'eager'}" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()"></figure>`).join('');
+  pts.innerHTML = conFoto.map((_, i) => `<button aria-label="Foto ${i + 1}" class="${i === 0 ? 'on' : ''}" data-i="${i}"></button>`).join('');
+  const pie = $('#pieFoto');
+  const poner = i => {
+    const figs = cont.querySelectorAll('figure');
+    if (!figs.length) { pie.textContent = ''; return; }
+    fotoIdx = (i + figs.length) % figs.length;
+    figs.forEach((f, j) => f.classList.toggle('on', j === fotoIdx));
+    pts.querySelectorAll('button').forEach((b, j) => b.classList.toggle('on', j === fotoIdx));
+    const n = conFoto[fotoIdx];
+    if (n) { pie.textContent = `Foto: ${n.medio || 'medio'} — ${n.titulo}`; pie.href = seguro(n.url) || '#noticias'; }
+  };
+  pts.onclick = e => { const b = e.target.closest('button'); if (b) { poner(+b.dataset.i); reiniciar(); } };
+  const reiniciar = () => { clearInterval(fotoTimer); fotoTimer = setInterval(() => poner(fotoIdx + 1), 6500); };
+  poner(0); reiniciar();
+  const ex = NOTICIAS.find(n => n.imagen && /suroeste|guajira|sabana/i.test(n.titulo));
+  if (ex) $('#fotoExpli').style.backgroundImage = `url("${ex.imagen.replace(/"/g, '%22')}")`;
+}
+
+function pintarTicker() {
+  const top = NOTICIAS.slice(0, 10);
+  if (!top.length) return;
+  const h = top.map(n => `<a href="${esc(seguro(n.url))}" target="_blank" rel="noopener">${esc(n.titulo)}</a>`).join('');
+  $('#ticker').innerHTML = h + h;
+}
+
+function tarjetaHoy(n, nueva) {
+  const img = n.imagen ? `style="background-image:url('${esc(n.imagen).replace(/'/g, '%27')}')"` : '';
+  return `<a class="nota-hoy" href="${esc(seguro(n.url))}" target="_blank" rel="noopener">
+    <div class="im" ${img}></div>
+    <div class="tx"><h3>${nueva ? '<span class="nuevo">Nuevo</span>' : ''}${esc(n.titulo)}</h3>
+    <div class="meta"><b>${esc(n.medio || '')}</b> · ${esc(hace(n.fecha))}</div></div></a>`;
+}
+
+function pintarHoy() {
+  const hoy = hoyBog();
+  const deHoy = NOTICIAS.filter(n => diaBog(new Date(n.fecha)) === hoy);
+  const lista = $('#listaHoy');
+  const fechaLarga = new Intl.DateTimeFormat('es-CO', { timeZone: TZ, weekday: 'long', day: 'numeric', month: 'long' }).format(new Date());
+  if (deHoy.length) {
+    $('#hoyTitulo').textContent = `${deHoy.length} ${deHoy.length === 1 ? 'novedad' : 'novedades'} hoy`;
+    lista.innerHTML = deHoy.slice(0, 6).map(n => tarjetaHoy(n, !primeraVez && !vistasAntes.has(clave(n.titulo)))).join('');
+  } else {
+    $('#hoyTitulo').textContent = 'Hoy, ' + fechaLarga;
+    const ult = NOTICIAS.slice(0, 3);
+    lista.innerHTML = `<p class="meta" style="font-size:.92rem">Todavía no hay notas nuevas publicadas hoy. Esto es lo más reciente:</p>` + ult.map(n => tarjetaHoy(n, !primeraVez && !vistasAntes.has(clave(n.titulo)))).join('');
+  }
+  // días desde la última derogatoria
+  const d = Math.max(0, Math.round((new Date(hoy + 'T12:00:00') - new Date(ULTIMA_DEROGATORIA + 'T12:00:00')) / 864e5));
+  const dEl = $('#diasUltima'); dEl.dataset.contar = d; dEl.textContent = '0';
+  contar();
+  // recordar lo visto para marcar "Nuevo" la próxima vez
+  try { localStorage.setItem('appa_vistas', JSON.stringify(NOTICIAS.slice(0, 80).map(n => clave(n.titulo)))); } catch {}
+}
+
+function contar() {
+  document.querySelectorAll('[data-contar]').forEach(el => {
+    const fin = +el.dataset.contar; const t0 = performance.now(); const dur = 1400;
+    const paso = t => { const p = Math.min(1, (t - t0) / dur); el.textContent = fmtN(Math.round(fin * (1 - Math.pow(1 - p, 3)))); if (p < 1) requestAnimationFrame(paso); };
+    requestAnimationFrame(paso);
+  });
+  const der = 198601, pen = 751697, tot = der + pen;
+  requestAnimationFrame(() => { $('#bDer').style.width = (der / tot * 100) + '%'; $('#bPen').style.width = (pen / tot * 100) + '%'; });
+}
+
+function pintarTablero() {
+  const etiqueta = { derogada: 'Derogada', vigente: 'Sigue vigente', proceso: 'En proceso' };
+  $('#tablero').innerHTML = REGIONES.map(r => `
+    <article class="reg">
+      <div class="ft ${r.foto ? '' : 'sin'}" ${r.foto ? `style="background-image:url('${esc(r.foto)}')"` : ''}>
+        ${r.foto ? '' : `<span class="agua">${esc(r.nombre.split(',')[0])}</span>`}
+        <span class="sello ${r.estado}">${etiqueta[r.estado]}</span>
+      </div>
+      <div class="cu">
+        <h3>${esc(r.nombre)}</h3>
+        <div class="ha">${r.ha ? fmtN(r.ha) + ' <small>hectáreas</small>' : '<small>Hectáreas: sin cifra total publicada</small>'}</div>
+        <div class="mun">${esc(r.municipios)}</div>
+        <p>${esc(r.texto)}</p>
+        <div class="fe"><b>${esc(r.fecha)}</b></div>
+      </div>
+    </article>`).join('');
+}
+
+function pintarTiempo() {
+  $('#tiempo').innerHTML = CRONOLOGIA.map(h => `<div class="hito ${h.c}"><div class="f">${esc(h.f)}</div><h3>${esc(h.t)}</h3><p>${esc(h.p)}</p></div>`).join('');
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('ver'); io.unobserve(e.target); } }), { threshold: .2 });
+  document.querySelectorAll('.hito').forEach(h => io.observe(h));
+}
+
+function pintarVideos() {
+  const v = VIDEOS.filter(x => /^[\w-]{11}$/.test(x.id));
+  $('#videos').innerHTML = v.map(x => `
+    <div class="vid"><div class="marco" data-id="${x.id}" style="background-image:url('https://i.ytimg.com/vi/${x.id}/hqdefault.jpg')" role="button" tabindex="0" aria-label="Reproducir: ${esc(x.titulo)}"><span class="play">Ver video</span></div>
+    <p>${esc(x.titulo)}</p></div>`).join('') || '<div class="vacio">Los videos aparecen cuando el robot los encuentre.</div>';
+}
+document.addEventListener('click', e => {
+  const m = e.target.closest('.marco[data-id]');
+  if (!m || m.querySelector('iframe')) return;
+  m.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${m.dataset.id}?autoplay=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen title="Video"></iframe>`;
+});
+document.addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.matches('.marco[data-id]')) e.target.click(); });
+
+function pintarNoticias() {
+  const q = $('#buscar').value.trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  const re = filtroChip ? new RegExp(filtroChip, 'i') : null;
+  const lista = NOTICIAS.filter(n => {
+    const txt = (n.titulo + ' ' + (n.resumen || '') + ' ' + (n.medio || ''));
+    if (re && !re.test(txt)) return false;
+    if (q && !txt.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').includes(q)) return false;
+    return true;
+  });
+  $('#notas').innerHTML = lista.slice(0, mostrar).map((n, i) => `
+    <a class="nota" href="${esc(seguro(n.url))}" target="_blank" rel="noopener" style="animation-delay:${Math.min(i, 8) * 40}ms">
+      ${n.imagen ? `<div class="im" style="background-image:url('${esc(n.imagen).replace(/'/g, '%27')}')"></div>` : `<div class="im sin"><span>${esc(n.medio || 'Noticia')}</span></div>`}
+      <div class="cu"><div class="meta"><b>${esc(n.medio || '')}</b> · ${esc(hace(n.fecha))}</div>
+      <h3>${esc(n.titulo)}</h3>${n.resumen ? `<p>${esc(n.resumen)}</p>` : ''}</div>
+    </a>`).join('') || '<div class="vacio">No hay noticias con ese filtro todavía.</div>';
+  $('#verMas').style.display = lista.length > mostrar ? '' : 'none';
+  $('#infoRobot').textContent = `${NOTICIAS.length} noticias reales de medios colombianos.` + (robotFecha ? ` El robot revisó por última vez ${hace(robotFecha)}.` : '');
+  $('#versionRobot').textContent = robotFecha ? 'Última actualización del robot: ' + new Intl.DateTimeFormat('es-CO', { timeZone: TZ, dateStyle: 'long', timeStyle: 'short' }).format(new Date(robotFecha)) + ' (hora de Colombia)' : '';
+}
+
+function pintarTodo() { pintarFotos(); pintarTicker(); pintarHoy(); pintarNoticias(); pintarVideos(); }
+
+/* ======= Reloj de Colombia ======= */
+function reloj() {
+  const f = new Intl.DateTimeFormat('es-CO', { timeZone: TZ, weekday: 'long', day: 'numeric', month: 'long', hour: 'numeric', minute: '2-digit' }).format(new Date());
+  $('#reloj').innerHTML = `Colombia · <b>${esc(f)}</b>`;
+}
+
+/* ======= Eventos ======= */
+$('#buscar').addEventListener('input', () => { mostrar = 12; pintarNoticias(); });
+$('#chips').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  document.querySelectorAll('#chips button').forEach(x => x.classList.toggle('on', x === b));
+  filtroChip = b.dataset.f; mostrar = 12; pintarNoticias();
+});
+$('#verMas').addEventListener('click', () => { mostrar += 12; pintarNoticias(); });
+
+async function actualizar(manual) {
+  const b = $('#btnActualizar');
+  if (b.classList.contains('cargando')) return;
+  b.classList.add('cargando');
+  await cargarRobot();
+  const nuevas = await buscarEnVivo().catch(() => 0);
+  pintarTodo();
+  b.classList.remove('cargando');
+  if (manual) aviso(nuevas ? `${nuevas} noticias nuevas` : 'Todo al día');
+}
+$('#btnActualizar').addEventListener('click', () => actualizar(true));
+
+const url = location.href.split('#')[0];
+$('#compartir').href = 'https://wa.me/?text=' + encodeURIComponent('Mire en qué va la derogatoria de las APPA, región por región y con noticias al día: ' + url);
+
+// Resaltar sección activa en el menú
+const secs = [...document.querySelectorAll('section[id]')];
+const links = [...document.querySelectorAll('#menu a')];
+const ioMenu = new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) links.forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#' + e.target.id));
+}), { rootMargin: '-45% 0px -50% 0px' });
+secs.forEach(s => ioMenu.observe(s));
+
+// Al volver a la app (desde otra pestaña o desde segundo plano) se refresca "Hoy"
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && Date.now() - (actualizar.ult || 0) > 5 * 60000) { actualizar.ult = Date.now(); actualizar(false); }
+});
+
+/* ======= Arranque ======= */
+pintarTablero();
+pintarTiempo();
+reloj(); setInterval(reloj, 30000);
+(async () => {
+  await cargarRobot();
+  pintarTodo();                 // muestra al instante lo del robot
+  actualizar.ult = Date.now();
+  await actualizar(false);      // y enseguida busca en vivo
+})();
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').then(r => r.update()).catch(() => {});
+}
+})();
+</script>
+</body>
+</html>
