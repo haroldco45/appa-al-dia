@@ -1,0 +1,34 @@
+name: Descargar fotos reales
+
+on:
+  push:
+    paths:
+      - 'fotos/lista.txt'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fotos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Descargar
+        run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36"
+          while read -r nombre url; do
+            [ -z "$nombre" ] && continue
+            curl -sSL -A "$UA" -m 30 -o "fotos/$nombre.img" "$url" || echo "fallo $nombre"
+            file "fotos/$nombre.img" || true
+          done < fotos/lista.txt
+          ls -la fotos
+      - name: Guardar
+        run: |
+          git config user.name "robot-appa"
+          git config user.email "robot-appa@users.noreply.github.com"
+          git add fotos
+          git diff --cached --quiet && exit 0
+          git commit -m "Fotos reales para el flyer"
+          git pull --rebase
+          git push
