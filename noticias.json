@@ -1,21 +1,30 @@
 {
-  "actualizado": "2026-10-25T12:08:21-05:00",
+  "actualizado": "2026-10-25T14:49:40-05:00",
   "fuente": "robot",
   "noticias": [
+    {
+      "titulo": "MinAgricultura deroga las APPA en 19 municipios del Suroeste antioqueño",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc3pzdEJFMS1lNUd4TXA4U2M2b3EzdkxqczN2c1BDTTl5ODRnRnhtRU1zM2cwNENnN3otSHFvYnJ5eHJpc1NkMTA3eTFHMndFZTcwdUhzaXlQUmhFRV93V2lpWnZCM2RSaDVOb055dkhsTEctVzZVWXBXbHJrcFZvY1Z0azBUZjJkN2JWbHcwY2c5a0xTV0w2a3doR01VbHJFcVBxNmZKN180UdIBvgFBVV95cUxQcUloYVpYZXhsSUt5d0Z2dEctOVM5eUpHS1lJSFd3RGZQTnhfeEVmazFwdDRXYm5INjhFajlKV0dsdW5iWUFEZi1YTUdfUWZ5dUh3NGxOMHpEVG05QXhLVVl3ajgxNk0wX3lYUDNtVlozX0VXeFVDYjRRTkpVb25LQUtldGdNeG5CNm9jcDA1cldPbXpNSjFUellON2dMYUdMTnpnOTlIcHBVYjRqVUI4MWliSVdwUFQyem42THVR?oc=5",
+      "medio": "Caracol Radio",
+      "fecha": "2026-10-25T13:15:39.000Z",
+      "imagen": "",
+      "resumen": ""
+    },
     {
       "titulo": "Gobernación de Antioquia celebró derogación de las APPA en 19 municipios del suroeste",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNM2lUbS1pRUQwTWNqVkNVSHVUZlNhV3dWdkcwb2o0U1d2YkpyU0Fkbi12d2VxNUVKbkNmYU9HOUIwaDdWWVA5UnozOE9TS05wVlRJeDJaMmk4M2pJVHFoQjdnQ1FTTXNSY081dUZDeHk0R0F4b1RuSUpMSmJDNDBJLUFNMXJXcW9CdGZPcW9CcDdYNnEta1NiUkRqaUhJa3VmOHo0MmttbWxPWHlXOXdGTWV0cF9SQW1DaHk5Rl81eHVyVzlSdmR0b3JnMkZqUEnSAdwBQVVfeXFMTXk5MUJDOHhkYlN0T3hZbmJWUkxzeDJZVG5lSm5SNDhaNXFYUGdsdk5UcUNMbkZFeWgxVUt5S09KUWtUcDdBcTJBOUZfdl9Kc2swempyTXZBdmRIQUFkVWRlQVBqa0hjVUJRbXBlU3dpeEQwMmd3aW1HUDFnWmxKaDY2QkZHOFptcWxfYmM4WVFnYTRqZTItV3FOU2NUVko4UGFxT0JJdzdiY3pJOE1zQS1lR01RRkhQUkJiV2ZSemJjTWRlMUt4R0JzTWQ3SVVmeTdSUEtYQmR2VlROMw?oc=5",
       "medio": "Blu Radio",
       "fecha": "2026-10-25T12:44:48.000Z",
       "imagen": "",
-      "resumen": ""
+      "resumen": "",
+      "sinFoto": true
     },
     {
       "titulo": "Fin de las APPA en Antioquia: Gobierno levanta restricciones sobre 103.000 hect&#225;reas",
       "url": "https://www.msn.com/es-co/noticias/otras/fin-de-las-appa-en-antioquia-gobierno-levanta-restricciones-sobre-103000-hect%C3%A1reas/ar-AA2g2xJq",
       "medio": "Valora Analitik on MSN",
       "fecha": "2026-10-25T08:30:00.000Z",
-      "imagen": "",
+      "imagen": "http://www.bing.com/th?id=ONUT.8H4pXxVUcICsOn6qv8JsBQ&pid=News",
       "resumen": "La UPRA concluy&#243; que la figura ten&#237;a fallas cartogr&#225;ficas y vac&#237;os de consulta previa. C&#243;rdoba y Tolima son las siguientes en la lista."
     },
     {
@@ -23,7 +32,7 @@
       "url": "https://caracol.com.co/2026/10/25/gobernador-de-antioquia-celebra-derogatoria-de-las-appa-en-el-suroeste/",
       "medio": "Caracol Radio",
       "fecha": "2026-10-25T06:20:00.000Z",
-      "imagen": "",
+      "imagen": "https://caracol.com.co/resizer/v2/OIGKZPQLDBCPDP6AP2XAGSJGXM.jpg?auth=ecf4053a575b55b683b10bc6f8404635eb7bd49f2f19cfe2eaab696018668a5b&quality=70&width=1200&height=675&smart=true",
       "resumen": "Andr&#233;s Juli&#225;n Rend&#243;n asegur&#243; que la decisi&#243;n devuelve a los municipios autonom&#237;a sobre el uso del suelo."
     },
     {
@@ -40,14 +49,15 @@
       "medio": "IFM Noticias",
       "fecha": "2026-10-25T01:24:24.000Z",
       "imagen": "",
-      "resumen": ""
+      "resumen": "",
+      "sinFoto": true
     },
     {
       "titulo": "MinAgricultura deroga las APPA en 19 municipios del Suroeste antioque&#241;o",
       "url": "https://caracol.com.co/2026/10/25/minagricultura-deroga-las-appa-en-19-municipios-del-suroeste-antioqueno/",
       "medio": "Caracol Radio",
       "fecha": "2026-10-25T01:15:00.000Z",
-      "imagen": "",
+      "imagen": "https://caracol.com.co/resizer/v2/6VHSMVP6WNDBJEN5RM42RMSIAI.jpg?auth=c89e43e2f6e0794d34c950ead49a3581fb88443fcbb987429b2c145ac1389bf3&quality=70&width=1200&height=675&smart=true",
       "resumen": "La medida libera 102.801 hect&#225;reas. El ministro Indalecio Dangond anunci&#243; que eliminar&#225;n las APPA en todo el pa&#237;s."
     },
     {
@@ -65,7 +75,8 @@
       "medio": "Blu Radio",
       "fecha": "2026-10-24T23:58:15.000Z",
       "imagen": "",
-      "resumen": ""
+      "resumen": "",
+      "sinFoto": true
     },
     {
       "titulo": "Minagricultura deroga las llamadas Appa de Petro en el Suroeste antioqueño",
@@ -99,14 +110,15 @@
       "medio": "Portafolio.co",
       "fecha": "2026-10-24T20:50:21.000Z",
       "imagen": "",
-      "resumen": ""
+      "resumen": "",
+      "sinFoto": true
     },
     {
       "titulo": "MinAgricultura deroga las APPA del Suroeste antioque&#241;o: 19 municipios recuperan el control sobre el uso de su suelo rural",
       "url": "https://ifmnoticias.com/gobierno/minagricultura-deroga-las-appa-del-suroeste-antioqueno-19-municipios-recuperan-e/",
       "medio": "ifmnoticias",
       "fecha": "2026-10-24T18:24:00.000Z",
-      "imagen": "",
+      "imagen": "https://storage.googleapis.com/ifmnoticias-media/articles/ingest/minagricultura-deroga-las-appa-del-suroeste-antioqueno-19-municipios-recuperan-e-1792888315625.webp",
       "resumen": "El Ministerio de Agricultura y Desarrollo Rural anunci&#243; desde Fredonia la derogatoria de las &#193;reas de Protecci&#243;n para la Producci&#243;n de Alimentos (APPA) ..."
     },
     {
@@ -123,7 +135,8 @@
       "medio": "La Rep&#250;blica on MSN",
       "fecha": "2026-10-24T15:17:33.000Z",
       "imagen": "",
-      "resumen": "La iniciativa que permanec&#237;a vigente desde el anterior gobierno reca&#237;a sobre 102.801 hect&#225;reas en la regi&#243;n ..."
+      "resumen": "La iniciativa que permanec&#237;a vigente desde el anterior gobierno reca&#237;a sobre 102.801 hect&#225;reas en la regi&#243;n ...",
+      "sinFoto": true
     },
     {
       "titulo": "MinAgricultura elimina las APPA en 19 municipios en Antioquia y devuelve m&#225;s de 100 mil hect&#225;reas",
@@ -147,7 +160,8 @@
       "medio": "La Otra Verdad",
       "fecha": "2026-10-22T13:19:34.000Z",
       "imagen": "",
-      "resumen": ""
+      "resumen": "",
+      "sinFoto": true
     },
     {
       "titulo": "Gobierno busca eliminar las &#193;reas de Protecci&#243;n para la Producci&#243;n de Alimentos",
@@ -172,7 +186,8 @@
       "medio": "Ecos del Combeima",
       "fecha": "2026-10-16T07:00:00.000Z",
       "imagen": "",
-      "resumen": ""
+      "resumen": "",
+      "sinFoto": true
     },
     {
       "titulo": "Giovanny Molina respalda derogatoria de las APPA y cuestiona su implementaci&#243;n en el norte del Tolima",
@@ -188,7 +203,8 @@
       "medio": "IFM Noticias",
       "fecha": "2026-10-13T07:00:00.000Z",
       "imagen": "",
-      "resumen": ""
+      "resumen": "",
+      "sinFoto": true
     },
     {
       "titulo": "Iván Cepeda cita al ministro de Agricultura, Indalecio Dangond, a debate de control político por las APPA",
@@ -196,7 +212,8 @@
       "medio": "LA RAZÓN.CO",
       "fecha": "2026-10-13T07:00:00.000Z",
       "imagen": "",
-      "resumen": ""
+      "resumen": "",
+      "sinFoto": true
     },
     {
       "titulo": "Gobierno eliminó las Áreas de Protección para la Producción de Alimentos creadas en municipios de Cundinamarca",
@@ -212,7 +229,7 @@
       "url": "https://www.infobae.com/colombia/2026/10/10/ivan-cepeda-cito-a-control-politico-al-ministro-de-agricultura-indalecio-dangond-estas-son-las-razones-por-las-que-debera-responder-ante-el-congreso/",
       "medio": "Infobae",
       "fecha": "2026-10-10T13:48:00.000Z",
-      "imagen": "",
+      "imagen": "https://www.infobae.com/resizer/v2/MEMZAMFEQ5ED5IF24WHAFCWGRI.jpg?auth=2e590cd4cd78130c01d0630d3a0dc60c30be77b3f9018cdf818e10dbf6bd2060&smart=true&width=1200&height=630&quality=85",
       "resumen": "Entre los asuntos que estar&#237;an en discusi&#243;n se encuentran las decisiones relacionadas con las &#193;reas de Protecci&#243;n para la Producci&#243;n de Alimentos (APPA) y el uso del agua ..."
     },
     {
@@ -229,7 +246,7 @@
       "url": "https://www.larepublica.co/analisis/daniel-briceno-montes-4466970/los-mitos-sobre-las-appa-y-zappas-4499604",
       "medio": "La Rep&#250;blica",
       "fecha": "2026-10-08T22:02:00.000Z",
-      "imagen": "",
+      "imagen": "https://img.lalr.co/cms/2026/08/25222240/1280x1720-Daniel_Briceno.jpg?size=xl&ratio=rr16_9&f=jpg",
       "resumen": "El problema del campo no es la falta de tierra para cultivar, sino la falta de condiciones para producir en la que ya existe. Declarar una Appa no agrega ..."
     },
     {
@@ -264,7 +281,8 @@
       "medio": "cristalina cundinamarca",
       "fecha": "2026-10-07T07:00:00.000Z",
       "imagen": "",
-      "resumen": ""
+      "resumen": "",
+      "sinFoto": true
     },
     {
       "titulo": "Gobierno derogó las APPA en cinco municipios de Sabana Centro",
@@ -464,6 +482,14 @@
       "resumen": "En diciembre de 2024, el Ministerio de Agricultura y Desarrollo Rural dio a conocer la Resoluci&#243;n 377 de 2024 que identifica la Zona de Protecci&#243;n para la Producci&#243;n de Alimentos (ZPPA) en el Suroeste ..."
     },
     {
+      "titulo": "Crece el pulso por zonas de alimentos en el Suroeste: Gobernaci&#243;n pide que se declaren inconstitucionales",
+      "url": "https://www.elcolombiano.com/antioquia/gobernador-andres-julian-rendon-pide-declaratoria-de-inconstitucionalidad-zonas-produccion-alimentos-suroeste-antioquia-BF27337879",
+      "medio": "El Colombiano",
+      "fecha": "2025-05-07T05:36:00.000Z",
+      "imagen": "",
+      "resumen": "El pulso por las pol&#233;micas Zonas de Protecci&#243;n para la Producci&#243;n de Alimentos (ZPPA) que el gobierno del presidente Gustavo Petro busca implementar en el Suroeste antioque&#241;o contin&#250;a escalando. En ..."
+    },
+    {
       "titulo": "De las ZPPA a las APPA",
       "url": "https://www.vanguardia.com/opinion/columnistas/2025/02/08/de-las-zppa-a-las-appa/",
       "medio": "Vanguardia",
@@ -482,52 +508,52 @@
   ],
   "videos": [
     {
-      "id": "2I4bGVlswFs",
-      "titulo": "Derogará las APPA: ¿puede hacerlo qué implicaciones tendría para la seguridad alimentaria?"
+      "id": "8P2tllbi9lY",
+      "titulo": "¿Qué son las zonas APPA y por qué generan polémica entre el Gobierno Petro y los alcaldes?"
     },
     {
-      "id": "9yGicEMk3Mw",
-      "titulo": "A pesar de su importancia estrategica, De La Espriella acaba las Áreas de Protección APPA."
+      "id": "o0hP6jmbhiI",
+      "titulo": "ABC de las Áreas de Protección para la Producción de Alimentos (APPA) y su importancia"
     },
     {
-      "id": "sVWxebSIzVw",
-      "titulo": "¿Qué dicen sobre las APPA?"
+      "id": "oaKkpj5qYDM",
+      "titulo": "Petro critica la eliminación de las APPA | ¿Qué son y por qué generan debate?"
     },
     {
-      "id": "vocMHfL4WIM",
-      "titulo": "¿Qué son las Áreas de Protección para la Producción de Alimentos – APPAS?"
+      "id": "sp0qkPmlsNU",
+      "titulo": "En las Áreas de Protección para la Producción de Alimentos también está incluida la agroindustria"
     },
     {
-      "id": "A7-ifx5j4GE",
-      "titulo": "Intervención Martha Carvajalino audiencia 'APPA y autonomía territorial' | Corte Constitucional"
+      "id": "Cd-NvT2t5Rg",
+      "titulo": "Audiencia Pública: Áreas de Protección para la Producción de Alimentos y autonomía territorial"
     },
     {
-      "id": "BPsE_IHJbDM",
-      "titulo": "Sustento jurídico de las APPA"
+      "id": "obK7iQ03W2k",
+      "titulo": "Proyecto de ley para frenar las Áreas de Protección para la Producción de Alimentos (APPA)"
     },
     {
-      "id": "0xZFxiPr4IQ",
-      "titulo": "1. ¿Qué son las APPA y cómo protegen nuestro campo? 🍎 Appita te explica"
+      "id": "A0vsa2JCfWs",
+      "titulo": "APPA - Áreas de Protección para la Producción de Alimentos"
     },
     {
-      "id": "9E1Igpu3M9o",
-      "titulo": "Conoce de qué trata las Áreas de Protección  para la Producción de Alimentos, APPA"
+      "id": "XOnIAeLjlJM",
+      "titulo": "Jornada de Sensibilización sobre las Áreas de Protección para la Producción de Alimentos (APPA)."
     },
     {
-      "id": "79I6sFUoCv8",
-      "titulo": "🚨 Abelardo de la Espriella anuncia que derogará las APPA creadas durante el gobierno Petro."
+      "id": "-n7zHOZG0Q4",
+      "titulo": "Áreas de protección para la producción de alimentos- TvAgro por Juan Gonzalo Angel Restrepo"
     },
     {
-      "id": "j-vdLsuw6-U",
-      "titulo": "#ElCampoNoPara | Especial APPA y producción alimentaria de Colombia"
+      "id": "9i7sTWeHIEk",
+      "titulo": "Debate 24-04-2025 AREAS DE PROTECCION  PARA LA PRODUCCION DE ALIMENTOS - APPA - Falan - Tolima"
     },
     {
-      "id": "YFjCJnQPLlM",
-      "titulo": "Socialización Áreas de Protección para la Producción de Alimentos APPA"
+      "id": "lQw21nF0RtI",
+      "titulo": "Desde el espacio de escucha sobre las Áreas de Protección para la Producción de Alimentos"
     },
     {
-      "id": "V1ZoywGMWys",
-      "titulo": "El Campo No Para | Derogatoria de las APPA y postulación SIPAM en Casanare"
+      "id": "hGVcE-4D0No",
+      "titulo": "Discusión sobre las Áreas de protección para la producción de alimentos"
     }
   ]
 }
