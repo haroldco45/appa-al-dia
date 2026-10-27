@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-26T20:51:49-05:00",
+  "actualizado": "2026-10-27T02:08:59-05:00",
   "fuente": "robot",
   "noticias": [
     {
@@ -43,6 +43,15 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOLWZ1RnVzdEgzNTBkY05ocmVtaTRtVEdkZ0g0ZFR3TDk0SUFEei01bXNmVU0xYUVPaXpSd3VPUjVHTHhoMXR3ckVCbFhXekNLS09HRGtlNVdBcHJYdHhISGZOc2JwRjQycm1zWUU3WnZ5alc5a1VPUW8yTVNMa2RZOFcyVGlidVdxV0NpMjFWZEZyTHlXTm1seEkxMkg4TGRfV25GLUt0RXpkZVRXM1lUQXAxZ1pncUtKLWfSAb8BQVVfeXFMT251VWl5bEVXeWNEYllXSW9GOEVOMi1mSm5uMWJXMFczMXpVSmpJeEFJbV9ITE5ubWxUNXNlMWk5a01CQW02MkwzdzZ0cFcwSF9xa0hPVXo5RlhiQTRMeXA4dUFITlRtWTlBanlFSmI4Tlc5bVloNjBqX1BLdXBqdzRDNlJHSlZ2TlU3eHFQNHBYSHVsWUVmVGlxbUJnTV9GU3hDN0VmcXZRdDZSUDZlNms0alktYWprTHNuRFZmTFE?oc=5",
       "medio": "Valora Analitik",
       "fecha": "2026-10-26T14:20:00.000Z",
+      "imagen": "",
+      "resumen": "",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Hoy derogarían las Appa en Córdoba: 667 mil hectáreas quedarían fuera de esta figura de protección",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVEphemdfc0dkM0lOTkJJd1ZyT1JTbFh2QUw4amwyLUwtdGdzQ2FiY3RwaFpFZ1BOUkhVUnJkemo2TGVBUTRmUXM1UENHNjRHTS0tUW9hYkVhVFRCc3llczNNWDVVQ2pvUHAxekFKOU53Z0xHUktYalpvMHpvVm5maU5vTUF1VVdqVnFSWWx3QkFjNDVIbkJWZGlaNWQ2VG42bVhLWmdpaUtWV3N2UmNPd0tSdWRORmdtQmIwN1c3ZHlhWnQyZlB2aGMxS21XUnY3QlBtNTZweFV2U25D?oc=5",
+      "medio": "El Meridiano",
+      "fecha": "2026-10-26T13:54:32.000Z",
       "imagen": "",
       "resumen": "",
       "sinFoto": true
@@ -650,52 +659,52 @@
   ],
   "videos": [
     {
-      "id": "2I4bGVlswFs",
-      "titulo": "Derogará las APPA: ¿puede hacerlo qué implicaciones tendría para la seguridad alimentaria?"
+      "id": "obK7iQ03W2k",
+      "titulo": "Proyecto de ley para frenar las Áreas de Protección para la Producción de Alimentos (APPA)"
     },
     {
-      "id": "a8lxFTOAuy4",
-      "titulo": "Gobierno deroga hoy las APPA en Córdoba"
+      "id": "PT-L4tiTW0M",
+      "titulo": "Riesgos y afectaciones de la declaración de las APPA y ZPPA"
     },
     {
-      "id": "9yGicEMk3Mw",
-      "titulo": "A pesar de su importancia estrategica, De La Espriella acaba las Áreas de Protección APPA."
+      "id": "8P2tllbi9lY",
+      "titulo": "¿Qué son las zonas APPA y por qué generan polémica entre el Gobierno Petro y los alcaldes?"
     },
     {
-      "id": "sVWxebSIzVw",
-      "titulo": "¿Qué dicen sobre las APPA?"
+      "id": "bnudbLnpRP0",
+      "titulo": "MinAgricultura rechazó anunció de de la espriella de derogar las Appa: “Representaría un retroceso”"
     },
     {
-      "id": "vocMHfL4WIM",
-      "titulo": "¿Qué son las Áreas de Protección para la Producción de Alimentos – APPAS?"
+      "id": "A7-ifx5j4GE",
+      "titulo": "Intervención Martha Carvajalino audiencia 'APPA y autonomía territorial' | Corte Constitucional"
     },
     {
-      "id": "BPsE_IHJbDM",
-      "titulo": "Sustento jurídico de las APPA"
+      "id": "PF0W69UuXk8",
+      "titulo": "Intervención de la ministra sobre las Áreas de Protección para la Producción de Alimentos (APPA)"
     },
     {
-      "id": "0xZFxiPr4IQ",
-      "titulo": "1. ¿Qué son las APPA y cómo protegen nuestro campo? 🍎 Appita te explica"
+      "id": "sp0qkPmlsNU",
+      "titulo": "En las Áreas de Protección para la Producción de Alimentos también está incluida la agroindustria"
     },
     {
-      "id": "79I6sFUoCv8",
-      "titulo": "🚨 Abelardo de la Espriella anuncia que derogará las APPA creadas durante el gobierno Petro."
+      "id": "A0vsa2JCfWs",
+      "titulo": "APPA - Áreas de Protección para la Producción de Alimentos"
     },
     {
-      "id": "9E1Igpu3M9o",
-      "titulo": "Conoce de qué trata las Áreas de Protección  para la Producción de Alimentos, APPA"
+      "id": "Cd-NvT2t5Rg",
+      "titulo": "Audiencia Pública: Áreas de Protección para la Producción de Alimentos y autonomía territorial"
     },
     {
-      "id": "YFjCJnQPLlM",
-      "titulo": "Socialización Áreas de Protección para la Producción de Alimentos APPA"
+      "id": "obK7iQ03W2k",
+      "titulo": "Proyecto de ley para frenar las Áreas de Protección para la Producción de Alimentos (APPA)"
     },
     {
-      "id": "j-vdLsuw6-U",
-      "titulo": "#ElCampoNoPara | Especial APPA y producción alimentaria de Colombia"
+      "id": "hGVcE-4D0No",
+      "titulo": "Discusión sobre las Áreas de protección para la producción de alimentos"
     },
     {
-      "id": "o0hP6jmbhiI",
-      "titulo": "ABC de las Áreas de Protección para la Producción de Alimentos (APPA) y su importancia"
+      "id": "XOnIAeLjlJM",
+      "titulo": "Jornada de Sensibilización sobre las Áreas de Protección para la Producción de Alimentos (APPA)."
     }
   ]
 }
