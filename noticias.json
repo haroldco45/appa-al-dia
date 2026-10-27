@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-26T17:58:33-05:00",
+  "actualizado": "2026-10-26T20:51:49-05:00",
   "fuente": "robot",
   "noticias": [
     {
@@ -62,6 +62,14 @@
       "fecha": "2026-10-26T07:36:00.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.PfqiZAcLkuun8D3mpX34KQ&pid=News",
       "resumen": "La reciente decisi&#243;n de eliminar las &#193;reas de Protecci&#243;n para la Producci&#243;n de Alimentos (APPA) en Antioquia marca un momento crucial para la regi&#243;n. Esta medi ..."
+    },
+    {
+      "titulo": "102.801 hect&#225;reas vuelven a manos de los municipios tras la derogatoria de las Appa",
+      "url": "https://360radio.com.co/derogatoria-appa-suroeste-antioqueno/235650/",
+      "medio": "360 Radio",
+      "fecha": "2026-10-26T07:32:00.000Z",
+      "imagen": "http://www.bing.com/th?id=ONUT.h2970t-haEtL_1NIL_JymQ&pid=News",
+      "resumen": "Las &#193;reas de Protecci&#243;n para la Producci&#243;n de Alimentos, conocidas como Appa, salieron del art&#237;culo 32 del Plan Nacional de Desarrollo del gobierno de Gustavo ..."
     },
     {
       "titulo": "Gobierno de la Espriella deroga las APPA creadas por Petro en 17 municipios de C&#243;rdoba",
@@ -642,52 +650,52 @@
   ],
   "videos": [
     {
-      "id": "8P2tllbi9lY",
-      "titulo": "¿Qué son las zonas APPA y por qué generan polémica entre el Gobierno Petro y los alcaldes?"
+      "id": "2I4bGVlswFs",
+      "titulo": "Derogará las APPA: ¿puede hacerlo qué implicaciones tendría para la seguridad alimentaria?"
     },
     {
-      "id": "oaKkpj5qYDM",
-      "titulo": "Petro critica la eliminación de las APPA | ¿Qué son y por qué generan debate?"
+      "id": "a8lxFTOAuy4",
+      "titulo": "Gobierno deroga hoy las APPA en Córdoba"
     },
     {
-      "id": "V1ZoywGMWys",
-      "titulo": "El Campo No Para | Derogatoria de las APPA y postulación SIPAM en Casanare"
+      "id": "9yGicEMk3Mw",
+      "titulo": "A pesar de su importancia estrategica, De La Espriella acaba las Áreas de Protección APPA."
     },
     {
-      "id": "sp0qkPmlsNU",
-      "titulo": "En las Áreas de Protección para la Producción de Alimentos también está incluida la agroindustria"
+      "id": "sVWxebSIzVw",
+      "titulo": "¿Qué dicen sobre las APPA?"
     },
     {
-      "id": "Cd-NvT2t5Rg",
-      "titulo": "Audiencia Pública: Áreas de Protección para la Producción de Alimentos y autonomía territorial"
+      "id": "vocMHfL4WIM",
+      "titulo": "¿Qué son las Áreas de Protección para la Producción de Alimentos – APPAS?"
     },
     {
-      "id": "obK7iQ03W2k",
-      "titulo": "Proyecto de ley para frenar las Áreas de Protección para la Producción de Alimentos (APPA)"
+      "id": "BPsE_IHJbDM",
+      "titulo": "Sustento jurídico de las APPA"
     },
     {
-      "id": "-n7zHOZG0Q4",
-      "titulo": "Áreas de protección para la producción de alimentos- TvAgro por Juan Gonzalo Angel Restrepo"
+      "id": "0xZFxiPr4IQ",
+      "titulo": "1. ¿Qué son las APPA y cómo protegen nuestro campo? 🍎 Appita te explica"
     },
     {
-      "id": "XOnIAeLjlJM",
-      "titulo": "Jornada de Sensibilización sobre las Áreas de Protección para la Producción de Alimentos (APPA)."
+      "id": "79I6sFUoCv8",
+      "titulo": "🚨 Abelardo de la Espriella anuncia que derogará las APPA creadas durante el gobierno Petro."
     },
     {
-      "id": "9i7sTWeHIEk",
-      "titulo": "Debate 24-04-2025 AREAS DE PROTECCION  PARA LA PRODUCCION DE ALIMENTOS - APPA - Falan - Tolima"
+      "id": "9E1Igpu3M9o",
+      "titulo": "Conoce de qué trata las Áreas de Protección  para la Producción de Alimentos, APPA"
     },
     {
-      "id": "lQw21nF0RtI",
-      "titulo": "Desde el espacio de escucha sobre las Áreas de Protección para la Producción de Alimentos"
+      "id": "YFjCJnQPLlM",
+      "titulo": "Socialización Áreas de Protección para la Producción de Alimentos APPA"
     },
     {
-      "id": "A0vsa2JCfWs",
-      "titulo": "APPA - Áreas de Protección para la Producción de Alimentos"
+      "id": "j-vdLsuw6-U",
+      "titulo": "#ElCampoNoPara | Especial APPA y producción alimentaria de Colombia"
     },
     {
-      "id": "oblNHh0y0Ow",
-      "titulo": "Desde Jericó dialogando sobre las Áreas de Protección para la Producción de Alimentos APPA"
+      "id": "o0hP6jmbhiI",
+      "titulo": "ABC de las Áreas de Protección para la Producción de Alimentos (APPA) y su importancia"
     }
   ]
 }
