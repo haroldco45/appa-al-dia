@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-01T19:56:14-05:00",
+  "actualizado": "2026-11-02T02:09:02-05:00",
   "fuente": "robot",
   "noticias": [
     {
@@ -533,6 +533,15 @@
       "sinFoto": true
     },
     {
+      "titulo": "FIRMADO DECRETO: La Guajira se sacude de las APPA, decisón del presidente De La Espriella, libera a 8 municipios de las restricciones territoriales – El Pulso Caribe",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNbHEwYjY2U2Zta19BakVBRURjU2hLVUlrWkdIT2s2OXJ6alZBV0dpRlJMeWR3YVV4b25OaUxqNzAxQk5VdVE1bWIzSFh3N2hGV1ZNSklVT1Eyakg3Qy0yczVoekJEc2d6bEktWFlnYm15MUllRFZIY2VJck41SUt6OE51TFRxbnBfVk45amNaSmVmb0l4Y1llbFpmem1XQ2xGNkxDclFaVERvTmRiM0c0RDA1Nl9PZVhRMzFwYjlLM2p5NDhDQ0xDckJGbFZBRDdJd29oaEhNcmxTOFJGWDJqeEJENlZsWjRURGZleGl0eUtic1Z4VzFUdUNCdDZkUnU3?oc=5",
+      "medio": "El Pulso Caribe",
+      "fecha": "2026-10-03T07:00:00.000Z",
+      "imagen": "",
+      "resumen": "",
+      "sinFoto": true
+    },
+    {
       "titulo": "Minagricultura libera primera área restringida con las llamadas Appa de Petro",
       "url": "https://www.agronegocios.co/agricultura/minagricultura-libera-primera-area-restringida-con-las-llamadas-appa-de-petro-4497040",
       "medio": "Agronegocios",
@@ -734,52 +743,52 @@
   ],
   "videos": [
     {
-      "id": "2I4bGVlswFs",
-      "titulo": "Derogará las APPA: ¿puede hacerlo qué implicaciones tendría para la seguridad alimentaria?"
+      "id": "vocMHfL4WIM",
+      "titulo": "¿Qué son las Áreas de Protección para la Producción de Alimentos – APPAS?"
     },
     {
-      "id": "sVWxebSIzVw",
-      "titulo": "¿Qué dicen sobre las APPA?"
+      "id": "8P2tllbi9lY",
+      "titulo": "¿Qué son las zonas APPA y por qué generan polémica entre el Gobierno Petro y los alcaldes?"
     },
     {
-      "id": "9yGicEMk3Mw",
-      "titulo": "A pesar de su importancia estrategica, De La Espriella acaba las Áreas de Protección APPA."
+      "id": "BPsE_IHJbDM",
+      "titulo": "Sustento jurídico de las APPA"
     },
     {
-      "id": "0xZFxiPr4IQ",
-      "titulo": "1. ¿Qué son las APPA y cómo protegen nuestro campo? 🍎 Appita te explica"
+      "id": "MJSJGI5ef7o",
+      "titulo": "Conozca qué son las Áreas de Protección para la Producción de Alimentos – APPA"
     },
     {
-      "id": "9E1Igpu3M9o",
-      "titulo": "Conoce de qué trata las Áreas de Protección  para la Producción de Alimentos, APPA"
+      "id": "oaKkpj5qYDM",
+      "titulo": "Petro critica la eliminación de las APPA | ¿Qué son y por qué generan debate?"
     },
     {
-      "id": "79I6sFUoCv8",
-      "titulo": "🚨 Abelardo de la Espriella anuncia que derogará las APPA creadas durante el gobierno Petro."
+      "id": "sp0qkPmlsNU",
+      "titulo": "En las Áreas de Protección para la Producción de Alimentos también está incluida la agroindustria"
     },
     {
-      "id": "o0hP6jmbhiI",
-      "titulo": "ABC de las Áreas de Protección para la Producción de Alimentos (APPA) y su importancia"
+      "id": "vocMHfL4WIM",
+      "titulo": "¿Qué son las Áreas de Protección para la Producción de Alimentos – APPAS?"
     },
     {
-      "id": "YFjCJnQPLlM",
-      "titulo": "Socialización Áreas de Protección para la Producción de Alimentos APPA"
+      "id": "Cd-NvT2t5Rg",
+      "titulo": "Audiencia Pública: Áreas de Protección para la Producción de Alimentos y autonomía territorial"
     },
     {
-      "id": "j-vdLsuw6-U",
-      "titulo": "#ElCampoNoPara | Especial APPA y producción alimentaria de Colombia"
+      "id": "obK7iQ03W2k",
+      "titulo": "Proyecto de ley para frenar las Áreas de Protección para la Producción de Alimentos (APPA)"
     },
     {
-      "id": "V1ZoywGMWys",
-      "titulo": "El Campo No Para | Derogatoria de las APPA y postulación SIPAM en Casanare"
+      "id": "-n7zHOZG0Q4",
+      "titulo": "Áreas de protección para la producción de alimentos- TvAgro por Juan Gonzalo Angel Restrepo"
     },
     {
-      "id": "A0vsa2JCfWs",
-      "titulo": "APPA - Áreas de Protección para la Producción de Alimentos"
+      "id": "XOnIAeLjlJM",
+      "titulo": "Jornada de Sensibilización sobre las Áreas de Protección para la Producción de Alimentos (APPA)."
     },
     {
-      "id": "9yGicEMk3Mw",
-      "titulo": "A pesar de su importancia estrategica, De La Espriella acaba las Áreas de Protección APPA."
+      "id": "lQw21nF0RtI",
+      "titulo": "Desde el espacio de escucha sobre las Áreas de Protección para la Producción de Alimentos"
     }
   ]
 }
