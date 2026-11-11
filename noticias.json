@@ -1,7 +1,16 @@
 {
-  "actualizado": "2026-11-10T20:38:12-05:00",
+  "actualizado": "2026-11-11T03:41:57-05:00",
   "fuente": "robot",
   "noticias": [
+    {
+      "titulo": "Appa: ahora deciden los municipios",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTXNoekVCdnQ0Q1Rubko1MUtjQTE2Rk9xWWRZc05vbllrNVBxaVJZbEJZMHJrTlZhXzJDcnl6d1R4a1o3Z01ndTJfZ3J3MG5MbEFIdWpIVmVkc0VxSDBDWkhndzRKUlA2d196SjR5UHRIZDY2UjYwd1VFbWhUZ2JKeWRXQjJ5TTBpTTBSWmpn?oc=5",
+      "medio": "El Meridiano",
+      "fecha": "2026-11-11T07:14:37.000Z",
+      "imagen": "",
+      "resumen": "",
+      "sinFoto": true
+    },
     {
       "titulo": "Corte Constitucional define límites del Ministerio de Agricultura sobre Áreas de Protección para la Producción de Alimentos",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVlFtZ2V4MGdFU1ZBNzY3U3RjRkd0VWlTX0swM25vb1FuZHBCNUtjQks0a3NWNlY4TThDUUlYUUczNklhekVNQll1VHhPaDlXMUxfQXZfYzN1Zl9BQVhkV180aks5Y0hZSlVJMTlWeHQ5Rk1ILXZOY042Xzc2TV9kV2FhMXdPYllXb0pKeXJ3QU4wakkyRWdsUVBvWHRkOTBUNXhHclBFRS1JVDBkcld6bzJTSWhuMV91WmtjNlR4ZEg3S2hsRW1VcTF1ckdwQml0Qkk5WDQ2SDRIUjBnVDlwWGhVZ0pvb1U?oc=5",
@@ -947,6 +956,14 @@
       "resumen": "Ya son cinco los municipios de Antioquia que est&#225;n incluidos dentro del &#193;rea de Protecci&#243;n para la Producci&#243;n de Alimentos (APPA). Los dos nuevos son Tarso y Salgar, que este jueves 30 de octubre ..."
     },
     {
+      "titulo": "Ministerio de Agricultura declar&#243; a Concordia, Antioquia, como la primera zona Appa del departamento, &#191;qu&#233; significa?",
+      "url": "https://www.elcolombiano.com/antioquia/concordia-primera-zona-appa-de-antioquia-AD29800275",
+      "medio": "El Colombiano",
+      "fecha": "2025-10-08T02:10:00.000Z",
+      "imagen": "https://estaticos.elcolombiano.com/binrepository/1280x908/0c94/1280d720/none/11101/ITNW/concordia_48959485_20251008091040.jpg",
+      "resumen": "Concordia, en el Suroeste antioque&#241;o, se convirti&#243; en el primer municipio de Antioquia que fue declarado como &#193;rea de Protecci&#243;n para la Producci&#243;n de Alimentos (Appa), una medida del Gobierno ..."
+    },
+    {
       "titulo": "Gobernador de Santander, Juvenal D&#237;az, y alcaldes de Chucur&#237; cuestionan implementaci&#243;n de zona protegida para alimentos (ZPPA)",
       "url": "https://metropolitano.com.co/gobernador-y-alcaldes-de-chucuri-cuestionan-zppa-en-santander/",
       "medio": "metropolitano",
@@ -989,52 +1006,52 @@
   ],
   "videos": [
     {
-      "id": "vocMHfL4WIM",
-      "titulo": "¿Qué son las Áreas de Protección para la Producción de Alimentos – APPAS?"
+      "id": "2I4bGVlswFs",
+      "titulo": "Derogará las APPA: ¿puede hacerlo qué implicaciones tendría para la seguridad alimentaria?"
     },
     {
-      "id": "0xZFxiPr4IQ",
-      "titulo": "1. ¿Qué son las APPA y cómo protegen nuestro campo? 🍎 Appita te explica"
+      "id": "obK7iQ03W2k",
+      "titulo": "Proyecto de ley para frenar las Áreas de Protección para la Producción de Alimentos (APPA)"
     },
     {
-      "id": "BPsE_IHJbDM",
-      "titulo": "Sustento jurídico de las APPA"
+      "id": "9yGicEMk3Mw",
+      "titulo": "A pesar de su importancia estrategica, De La Espriella acaba las Áreas de Protección APPA."
     },
     {
-      "id": "8P2tllbi9lY",
-      "titulo": "¿Qué son las zonas APPA y por qué generan polémica entre el Gobierno Petro y los alcaldes?"
+      "id": "u9_6PtXz0jU",
+      "titulo": "De La Espriella ordena desmontar las APPA en sus primeros ocho días de gobierno"
     },
     {
-      "id": "9E1Igpu3M9o",
-      "titulo": "Conoce de qué trata las Áreas de Protección  para la Producción de Alimentos, APPA"
+      "id": "sVWxebSIzVw",
+      "titulo": "¿Qué dicen sobre las APPA?"
     },
     {
-      "id": "o0hP6jmbhiI",
-      "titulo": "ABC de las Áreas de Protección para la Producción de Alimentos (APPA) y su importancia"
+      "id": "bnudbLnpRP0",
+      "titulo": "MinAgricultura rechazó anunció de de la espriella de derogar las Appa: “Representaría un retroceso”"
     },
     {
-      "id": "sp0qkPmlsNU",
-      "titulo": "En las Áreas de Protección para la Producción de Alimentos también está incluida la agroindustria"
+      "id": "A7-ifx5j4GE",
+      "titulo": "Intervención Martha Carvajalino audiencia 'APPA y autonomía territorial' | Corte Constitucional"
     },
     {
-      "id": "vocMHfL4WIM",
-      "titulo": "¿Qué son las Áreas de Protección para la Producción de Alimentos – APPAS?"
+      "id": "-zlqzskdbHM",
+      "titulo": "Así se dialoga sobre las APPA en territorio"
     },
     {
-      "id": "-n7zHOZG0Q4",
-      "titulo": "Áreas de protección para la producción de alimentos- TvAgro por Juan Gonzalo Angel Restrepo"
+      "id": "PF0W69UuXk8",
+      "titulo": "Intervención de la ministra sobre las Áreas de Protección para la Producción de Alimentos (APPA)"
     },
     {
-      "id": "XOnIAeLjlJM",
-      "titulo": "Jornada de Sensibilización sobre las Áreas de Protección para la Producción de Alimentos (APPA)."
+      "id": "Cd-NvT2t5Rg",
+      "titulo": "Audiencia Pública: Áreas de Protección para la Producción de Alimentos y autonomía territorial"
     },
     {
-      "id": "9E1Igpu3M9o",
-      "titulo": "Conoce de qué trata las Áreas de Protección  para la Producción de Alimentos, APPA"
+      "id": "1PvtsgukoPQ",
+      "titulo": "Corte 10 #1 APPA En Producción: Txema Urquijo, Asesor Gabinete Sº de Estado del Mº de Cultura."
     },
     {
-      "id": "lQw21nF0RtI",
-      "titulo": "Desde el espacio de escucha sobre las Áreas de Protección para la Producción de Alimentos"
+      "id": "Cd-NvT2t5Rg",
+      "titulo": "Audiencia Pública: Áreas de Protección para la Producción de Alimentos y autonomía territorial"
     }
   ]
 }
