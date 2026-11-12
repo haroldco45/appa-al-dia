@@ -1,7 +1,25 @@
 {
-  "actualizado": "2026-11-11T22:58:44-05:00",
+  "actualizado": "2026-11-12T07:19:13-05:00",
   "fuente": "robot",
   "noticias": [
+    {
+      "titulo": "¡No van! Gobierno Nacional firma decreto que deroga las APPA para el Tolima y cinco departamentos más.",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOURVX0VPMHZVLTB6eE5IR2NPdUhJMlh5WDFtY1FUeElSSlU4VzRfWHJYellVOEZEMGZmVXFUdUR6cGRUX1JCMmpvYUJCNmJTYWIwWUlBSEVoTlhOZ2JzN1ozOUFweTlWU2lRcHBzdGV1RmwzX0tWZ1h4eWxuUldkb2trWnFiZTZXZU5KMXdLV3otdWVtTEgzM2s5YXdkYk81Q1F3MzZBNmtHR0pUOG1yUmtybnlySlJabnNLMENES2NuQnpONXhhOER3?oc=5",
+      "medio": "La Voz Del Pueblo",
+      "fecha": "2026-11-12T10:03:58.000Z",
+      "imagen": "",
+      "resumen": "",
+      "sinFoto": true
+    },
+    {
+      "titulo": "Gobierno elimina áreas de protección agrícola (APPA) en 59 municipios",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UWjdlNkdIdUc4dGlpckpRb0dQc0tSbmFBMy1MR1BWUkZHWjBael9oREx6bDloNGpvYzduem1rbGlId0xuRlZYOUtn?oc=5",
+      "medio": "Soacha Ilustrada",
+      "fecha": "2026-11-12T08:24:12.000Z",
+      "imagen": "",
+      "resumen": "",
+      "sinFoto": true
+    },
     {
       "titulo": "El Gobierno derogó oficialmente todas las APPA: la decisión cobija a un millón de hectáreas en seis departamentos",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPeGZ6VFg1eGl1NThObFZUcHRmT0NPQ0FlVWJBaF9pakVtRTFkT1MzZVJBYWFuOGJIaS1KQ3lBX0RNVE9pT09JbWdHQWdnaVRpdmpjQlNOSEdpaVRKc05UVDNZSlhKMVpabnRJS3dZbTV4RS1CODNaTXpBQ2VDZHVxbWo5bTMxVnhhQXlsQTBqaUdKTkxlZ2pjYlhjLTBNSm1PN1RaMDA3WkM2YUItdU43MkRtc2NaWkdoVmR2WDg4d0hGVWlFUUdZYmREazQ3Vl9nM3RHdjYxR0czQzhsV21NN3RRZHJLRFdjR2EwaGZn?oc=5",
@@ -1010,72 +1028,56 @@
       "imagen": "",
       "resumen": "",
       "sinFoto": true
-    },
-    {
-      "titulo": "MinAgricultura quiere derogar la declaratoria APPA en C&#243;rdoba y preparar una nueva formulaci&#243;n",
-      "url": "https://es-us.noticias.yahoo.com/minagricultura-derogar-declaratoria-appa-c%C3%B3rdoba-150000190.html",
-      "medio": "Yahoo Noticias en Espa&#241;ol",
-      "fecha": "2026-09-21T08:00:00.000Z",
-      "imagen": "https://s.yimg.com/lo/mysterio/api/b37209e2cd1e895647bfe8e044e002019203d62328313bed07d2f2e501894e4f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fes%2Fvalora_628%2F1d6b0bc3f33340187923f16a6e5f519c.jpg",
-      "resumen": "Una revisi&#243;n adelantada por la UPRA evidenci&#243; fallas en la escala cartogr&#225;fica e ignorancia de zonas contaminadas con metales pesados."
-    },
-    {
-      "titulo": "Aida Quilcué rechazó proyecto de resolución que deroga cinco APPA: “No podemos aceptar retrocesos”",
-      "url": "https://www.infobae.com/colombia/2026/09/03/aida-quilcue-rechazo-proyecto-de-resolucion-que-deroga-cinco-areas-de-proteccion-para-produccion-de-alimentos-no-podemos-aceptar-retrocesos/",
-      "medio": "Infobae",
-      "fecha": "2026-09-03T10:00:00-05:00",
-      "imagen": "https://www.infobae.com/resizer/v2/BCQOKGHFF5B7TLZTVKEECGHCGM.JPG?auth=dc906775660fde62d2841edc5132bbb4241a8f0290383ac3b2d0e1bed4007308&smart=true&width=1200&height=630&quality=85",
-      "resumen": "La senadora advirtió que se desprotege cerca de un millón de hectáreas; congresistas de oposición a Petro celebraron."
     }
   ],
   "videos": [
     {
-      "id": "PT-L4tiTW0M",
-      "titulo": "Riesgos y afectaciones de la declaración de las APPA y ZPPA"
+      "id": "2I4bGVlswFs",
+      "titulo": "Derogará las APPA: ¿puede hacerlo qué implicaciones tendría para la seguridad alimentaria?"
     },
     {
-      "id": "vocMHfL4WIM",
-      "titulo": "¿Qué son las Áreas de Protección para la Producción de Alimentos – APPAS?"
+      "id": "sVWxebSIzVw",
+      "titulo": "¿Qué dicen sobre las APPA?"
     },
     {
-      "id": "BPsE_IHJbDM",
-      "titulo": "Sustento jurídico de las APPA"
+      "id": "u9_6PtXz0jU",
+      "titulo": "De La Espriella ordena desmontar las APPA en sus primeros ocho días de gobierno"
     },
     {
-      "id": "8P2tllbi9lY",
-      "titulo": "¿Qué son las zonas APPA y por qué generan polémica entre el Gobierno Petro y los alcaldes?"
+      "id": "obK7iQ03W2k",
+      "titulo": "Proyecto de ley para frenar las Áreas de Protección para la Producción de Alimentos (APPA)"
     },
     {
-      "id": "du2-r5DrtYE",
-      "titulo": "¡Lo último! Abelardo de la Espriella fija ocho días para acabar las APPA y genera debate"
+      "id": "9yGicEMk3Mw",
+      "titulo": "A pesar de su importancia estrategica, De La Espriella acaba las Áreas de Protección APPA."
     },
     {
-      "id": "9E1Igpu3M9o",
-      "titulo": "Conoce de qué trata las Áreas de Protección  para la Producción de Alimentos, APPA"
+      "id": "A7-ifx5j4GE",
+      "titulo": "Intervención Martha Carvajalino audiencia 'APPA y autonomía territorial' | Corte Constitucional"
     },
     {
-      "id": "V1ZoywGMWys",
-      "titulo": "El Campo No Para | Derogatoria de las APPA y postulación SIPAM en Casanare"
+      "id": "bnudbLnpRP0",
+      "titulo": "MinAgricultura rechazó anunció de de la espriella de derogar las Appa: “Representaría un retroceso”"
     },
     {
-      "id": "143shuJ8W0g",
-      "titulo": "🌾AgroRecap | Derogatoria APPA, monitoreo de cultivos y avances para el campo colombiano 🇨🇴"
+      "id": "Cd-NvT2t5Rg",
+      "titulo": "Audiencia Pública: Áreas de Protección para la Producción de Alimentos y autonomía territorial"
     },
     {
-      "id": "j-vdLsuw6-U",
-      "titulo": "#ElCampoNoPara | Especial APPA y producción alimentaria de Colombia"
+      "id": "PF0W69UuXk8",
+      "titulo": "Intervención de la ministra sobre las Áreas de Protección para la Producción de Alimentos (APPA)"
     },
     {
-      "id": "sp0qkPmlsNU",
-      "titulo": "En las Áreas de Protección para la Producción de Alimentos también está incluida la agroindustria"
+      "id": "-zlqzskdbHM",
+      "titulo": "Así se dialoga sobre las APPA en territorio"
     },
     {
-      "id": "vocMHfL4WIM",
-      "titulo": "¿Qué son las Áreas de Protección para la Producción de Alimentos – APPAS?"
+      "id": "Cd-NvT2t5Rg",
+      "titulo": "Audiencia Pública: Áreas de Protección para la Producción de Alimentos y autonomía territorial"
     },
     {
-      "id": "-n7zHOZG0Q4",
-      "titulo": "Áreas de protección para la producción de alimentos- TvAgro por Juan Gonzalo Angel Restrepo"
+      "id": "obK7iQ03W2k",
+      "titulo": "Proyecto de ley para frenar las Áreas de Protección para la Producción de Alimentos (APPA)"
     }
   ]
 }
