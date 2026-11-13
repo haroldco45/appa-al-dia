@@ -1,7 +1,16 @@
 {
-  "actualizado": "2026-11-12T20:18:18-05:00",
+  "actualizado": "2026-11-13T03:22:36-05:00",
   "fuente": "robot",
   "noticias": [
+    {
+      "titulo": "MinAgricultura cierra la derogatoria de las APPA: cerca de un millón de hectáreas en 59 municipios dejan de ser áreas de protección para alimentos",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTl9WUVpWbnZiN2dNNnhNQ0NRY0lhWW5ZV1UtVHhVN0dRU3pvejZObU9nUUowUjVERE9uSTRsb2w2eEliUWVyYW0xdDRpSi1uOVZhX096RjU5aEpmZDJsbHJhR3NOX2NsclhLV20xQnJwTmpWclk2anh0ZmltSzVzTUx1d2NGZXBHVDZFc1lnbjRCVkdxcWhxeDFydUFBZEpzR3QyTkgzY1pZeGIzWUxycTR2RU8?oc=5",
+      "medio": "IFM Noticias",
+      "fecha": "2026-11-13T02:36:44.000Z",
+      "imagen": "",
+      "resumen": "",
+      "sinFoto": true
+    },
     {
       "titulo": "Ministerio de Agricultura deroga las APPA en ocho municipios del Tolima y cinco departamentos más pese a fallo de la Corte Constitucional",
       "url": "https://ondasdeibague.com/noticias/nacionales/70965-ministerio-de-agricultura-deroga-las-appa-en-ocho-municipios-del-tolima-y-cinco-departamentos-mas-pese-a-fallo-de-la-corte-constitucional",
@@ -17,6 +26,14 @@
       "fecha": "2026-11-12T18:03:47.000Z",
       "imagen": "http://www.bing.com/th?id=ONUT.Ipq7HkzYn7A-TtOaUjRnKQ&pid=News",
       "resumen": ""
+    },
+    {
+      "titulo": "MinAgricultura cierra la derogatoria de las APPA: cerca de un mill&#243;n de hect&#225;reas en 59 municipios dejan de ser &#225;reas de protecci&#243;n para alimentos",
+      "url": "https://ifmnoticias.com/gobierno/minagricultura-cierra-la-derogatoria-de-las-appa-cerca-de-un-millon-de-hectareas/",
+      "medio": "ifmnoticias",
+      "fecha": "2026-11-12T16:00:00.000Z",
+      "imagen": "https://storage.googleapis.com/ifmnoticias-media/articles/ai-edited/edited-1794537281943.webp",
+      "resumen": "El Ministerio de Agricultura y Desarrollo Rural dio por terminado este mi&#233;rcoles 11 de noviembre el proceso para eliminar las &#193;reas de Protecci&#243;n para ..."
     },
     {
       "titulo": "Gobierno Nacional echó para atrás las APPA y retiró la protección a más de 48 mil hectáreas del Tolima",
@@ -1009,73 +1026,56 @@
       "imagen": "",
       "resumen": "",
       "sinFoto": true
-    },
-    {
-      "titulo": "Ministerio de Agricultura derog&#243; las APPA en ocho municipios de La Guajira y elimin&#243; restricciones sobre el desarrollo de tierras rurales en la regi&#243;n",
-      "url": "https://www.infobae.com/colombia/2026/10/03/ministerio-de-agricultura-derogo-las-appa-en-ocho-municipios-de-la-guajira-y-elimino-restricciones-sobre-el-desarrollo-de-tierras-rurales-en-la-region/",
-      "medio": "Infobae",
-      "fecha": "2026-10-02T18:38:00.000Z",
-      "imagen": "https://www.infobae.com/resizer/v2/AMSAD3MFX5DEND3S7ANADKNIBY.jpg?auth=bea7193d125cbba28da38481b1dfe0fe6094b6c820a3d367a96527da68d508a2&smart=true&width=1200&height=630&quality=85",
-      "resumen": "A trav&#233;s de la nueva resoluci&#243;n, 80.000 hect&#225;reas de ocho municipios del sur del departamento ser&#225;n libres de las medidas que se tramitaron en el Gobierno Petro ..."
-    },
-    {
-      "titulo": "Ministerio de Agricultura derogó las APPA en ocho municipios de La Guajira y eliminó restricciones sobre el desarrollo de tierras rurales en la región",
-      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQXzk1REpmZXhmT1VudzdNS3k4UXVyMVpJa1NHUTRqOGFWZTdqNWlYZnlYYjB1UE4tTHJXelZhS083dng0dHp6SlV5V1pHLWoweUJhdjdBWVB2ZFl1NWJ1QVhLeER2QWxFbUhwLWJNTlFBX0tnUXlXVmN2Z3JPQXlSTWRNUjhJRWYyZHlFZnJ6ekVlTmVkeE9rVmREUjJtWlh0X0RiRnkzTmdoZUNfWXpEMFNMQWJRVmlMNHJ6SkZJRklPaFVZTjZyY2xVZzNHSndwWGR2TTRQdERNUVBTUGk1VzIzSzc4a2g2a3JBYnRNaG0yTVNnNVRRNWZ2TmhEdTlCazRmLVRLRE41Y09zaVczNXJoUHB6SjA2bV9zNDdzeXTSAbsCQVVfeXFMUFZxWU52SE1VbVJtWWlCR2Zwb2VkSWRvdVQ1OExhR04yNjFJV1JZaFR1REhUeW91bXNNTEc4WTBLTHU0TExqSy1Da2ltU0M0ZUNzQU9sMmVnOXhHZ0tyVjNPdDEyN3Z4S1lsT0t2c1NnVzVVOHVXTEFzdlRmN3VNWkQwUVFxbXBjLU5NSjhmRHZGS0xWUXJpbjdYSmFZclotWWFNUGFvekUyZHFQanFJYjVZbnVxUlFYSk5HWXRRZUtHcGVQRnNyRWZQMlk3RGxVOUxkSXpGNGp4RHJQREstMENDaTFVb0FZdWEwLTFyNFctbmdxQ1dFV0RabC1VajZzU1VULVFaUEdFSVJrak9lWUtMQkJ5UFNPZ1NsNmhhR0c1R3liMFdHcmxhWG4wX1VYT0VOMmhXZ29XVjNN?oc=5",
-      "medio": "Infobae",
-      "fecha": "2026-10-02T07:00:00.000Z",
-      "imagen": "",
-      "resumen": "",
-      "sinFoto": true
     }
   ],
   "videos": [
     {
-      "id": "2I4bGVlswFs",
-      "titulo": "Derogará las APPA: ¿puede hacerlo qué implicaciones tendría para la seguridad alimentaria?"
+      "id": "PT-L4tiTW0M",
+      "titulo": "Riesgos y afectaciones de la declaración de las APPA y ZPPA"
     },
     {
-      "id": "obK7iQ03W2k",
-      "titulo": "Proyecto de ley para frenar las Áreas de Protección para la Producción de Alimentos (APPA)"
+      "id": "vocMHfL4WIM",
+      "titulo": "¿Qué son las Áreas de Protección para la Producción de Alimentos – APPAS?"
     },
     {
-      "id": "u9_6PtXz0jU",
-      "titulo": "De La Espriella ordena desmontar las APPA en sus primeros ocho días de gobierno"
+      "id": "A7-ifx5j4GE",
+      "titulo": "Intervención Martha Carvajalino audiencia 'APPA y autonomía territorial' | Corte Constitucional"
     },
     {
-      "id": "sVWxebSIzVw",
-      "titulo": "¿Qué dicen sobre las APPA?"
+      "id": "BPsE_IHJbDM",
+      "titulo": "Sustento jurídico de las APPA"
     },
     {
-      "id": "9yGicEMk3Mw",
-      "titulo": "A pesar de su importancia estrategica, De La Espriella acaba las Áreas de Protección APPA."
+      "id": "8P2tllbi9lY",
+      "titulo": "¿Qué son las zonas APPA y por qué generan polémica entre el Gobierno Petro y los alcaldes?"
     },
     {
-      "id": "bnudbLnpRP0",
-      "titulo": "MinAgricultura rechazó anunció de de la espriella de derogar las Appa: “Representaría un retroceso”"
+      "id": "9E1Igpu3M9o",
+      "titulo": "Conoce de qué trata las Áreas de Protección  para la Producción de Alimentos, APPA"
     },
     {
-      "id": "PF0W69UuXk8",
-      "titulo": "Intervención de la ministra sobre las Áreas de Protección para la Producción de Alimentos (APPA)"
+      "id": "143shuJ8W0g",
+      "titulo": "🌾AgroRecap | Derogatoria APPA, monitoreo de cultivos y avances para el campo colombiano 🇨🇴"
     },
     {
-      "id": "-zlqzskdbHM",
-      "titulo": "Así se dialoga sobre las APPA en territorio"
+      "id": "j-vdLsuw6-U",
+      "titulo": "#ElCampoNoPara | Especial APPA y producción alimentaria de Colombia"
     },
     {
-      "id": "Cd-NvT2t5Rg",
-      "titulo": "Audiencia Pública: Áreas de Protección para la Producción de Alimentos y autonomía territorial"
+      "id": "sp0qkPmlsNU",
+      "titulo": "En las Áreas de Protección para la Producción de Alimentos también está incluida la agroindustria"
     },
     {
-      "id": "V1ZoywGMWys",
-      "titulo": "El Campo No Para | Derogatoria de las APPA y postulación SIPAM en Casanare"
+      "id": "vocMHfL4WIM",
+      "titulo": "¿Qué son las Áreas de Protección para la Producción de Alimentos – APPAS?"
     },
     {
-      "id": "Cd-NvT2t5Rg",
-      "titulo": "Audiencia Pública: Áreas de Protección para la Producción de Alimentos y autonomía territorial"
+      "id": "-n7zHOZG0Q4",
+      "titulo": "Áreas de protección para la producción de alimentos- TvAgro por Juan Gonzalo Angel Restrepo"
     },
     {
-      "id": "obK7iQ03W2k",
-      "titulo": "Proyecto de ley para frenar las Áreas de Protección para la Producción de Alimentos (APPA)"
+      "id": "XOnIAeLjlJM",
+      "titulo": "Jornada de Sensibilización sobre las Áreas de Protección para la Producción de Alimentos (APPA)."
     }
   ]
 }
