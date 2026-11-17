@@ -1,7 +1,16 @@
 {
-  "actualizado": "2026-11-16T19:36:19-05:00",
+  "actualizado": "2026-11-17T03:42:54-05:00",
   "fuente": "robot",
   "noticias": [
+    {
+      "titulo": "MinAgricultura completa derogatoria de las APPA y recupera un millón de hectáreas en 100 días de Gobierno",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbXJmcWNSeXhjM1hVTC0tZi1UbFY4Y2RNaFl5TTUxM3EtWldDUk85eGwxU0gxRTFoamRWTERHbW1rcnNzN1Q0cnN6QUcydXJJN1VYNmtlVkFGeEdMSmg1MWVJOGdvZmF0TmM2ME9wMkhCSXdoUmU4ZkUtWC1POHFhcGZJbTZXdlRITmlvM3FPQm5ZZDhZcUlVbllCS1MxTFdiQXppMFNTdjRXQ3hhT2t4bThYRkVGaDl2TWc5dzBLQXd6X1pfQ3FqVmNuYWlnNWs?oc=5",
+      "medio": "BusinessCol.com",
+      "fecha": "2026-11-16T15:02:54.000Z",
+      "imagen": "",
+      "resumen": "",
+      "sinFoto": true
+    },
     {
       "titulo": "MinAgricultura completa derogatoria de las APPA y recupera un mill&#243;n de hect&#225;reas en 100 d&#237;as de Gobierno",
       "url": "https://www.businesscol.com/minagricultura-completa-derogatoria-de-las-appa-y-recupera-un-millon-de-hectareas-en-100-dias-de-gobierno/",
@@ -1016,65 +1025,56 @@
       "imagen": "",
       "resumen": "",
       "sinFoto": true
-    },
-    {
-      "titulo": "MinAgricultura anunció para La Guajira derogatoria de las APPA y plan agropecuario",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSU9sXzJhZFZzUTZ5YVRCanBBTWU3S1p3bGtfVDMxMnRxUC1CdVZNbWRmTDNqcTZXM2xxNDdSU2p1alY2TUZmZVdLdElBT1R4dWpOU3I2Ui1TQU5LdXdSajRieDRid2JGeTh6cE9KUEprYUx4bjZvc2Zib0NaZ0RHNXg4ZFRJdjRaQnFOcXZHT2FKSVRDWElDeEZoVGM1N2dHeFBTdTdlVWxwb0laTkQ3T2VDRUJDZTBLdmpRMzh3?oc=5",
-      "medio": "La Guajira Hoy.com",
-      "fecha": "2026-10-05T07:00:00.000Z",
-      "imagen": "",
-      "resumen": "",
-      "sinFoto": true
     }
   ],
   "videos": [
     {
-      "id": "PT-L4tiTW0M",
-      "titulo": "Riesgos y afectaciones de la declaración de las APPA y ZPPA"
+      "id": "2I4bGVlswFs",
+      "titulo": "Derogará las APPA: ¿puede hacerlo qué implicaciones tendría para la seguridad alimentaria?"
     },
     {
-      "id": "vocMHfL4WIM",
-      "titulo": "¿Qué son las Áreas de Protección para la Producción de Alimentos – APPAS?"
+      "id": "u9_6PtXz0jU",
+      "titulo": "De La Espriella ordena desmontar las APPA en sus primeros ocho días de gobierno"
     },
     {
-      "id": "A7-ifx5j4GE",
-      "titulo": "Intervención Martha Carvajalino audiencia 'APPA y autonomía territorial' | Corte Constitucional"
+      "id": "sVWxebSIzVw",
+      "titulo": "¿Qué dicen sobre las APPA?"
     },
     {
-      "id": "BPsE_IHJbDM",
-      "titulo": "Sustento jurídico de las APPA"
+      "id": "9yGicEMk3Mw",
+      "titulo": "A pesar de su importancia estrategica, De La Espriella acaba las Áreas de Protección APPA."
     },
     {
-      "id": "8P2tllbi9lY",
-      "titulo": "¿Qué son las zonas APPA y por qué generan polémica entre el Gobierno Petro y los alcaldes?"
+      "id": "bnudbLnpRP0",
+      "titulo": "MinAgricultura rechazó anunció de de la espriella de derogar las Appa: “Representaría un retroceso”"
     },
     {
-      "id": "9E1Igpu3M9o",
-      "titulo": "Conoce de qué trata las Áreas de Protección  para la Producción de Alimentos, APPA"
+      "id": "du2-r5DrtYE",
+      "titulo": "¡Lo último! Abelardo de la Espriella fija ocho días para acabar las APPA y genera debate"
     },
     {
-      "id": "143shuJ8W0g",
-      "titulo": "🌾AgroRecap | Derogatoria APPA, monitoreo de cultivos y avances para el campo colombiano 🇨🇴"
+      "id": "Cd-NvT2t5Rg",
+      "titulo": "Audiencia Pública: Áreas de Protección para la Producción de Alimentos y autonomía territorial"
     },
     {
-      "id": "V1ZoywGMWys",
-      "titulo": "El Campo No Para | Derogatoria de las APPA y postulación SIPAM en Casanare"
+      "id": "obK7iQ03W2k",
+      "titulo": "Proyecto de ley para frenar las Áreas de Protección para la Producción de Alimentos (APPA)"
     },
     {
-      "id": "j-vdLsuw6-U",
-      "titulo": "#ElCampoNoPara | Especial APPA y producción alimentaria de Colombia"
+      "id": "2I4bGVlswFs",
+      "titulo": "Derogará las APPA: ¿puede hacerlo qué implicaciones tendría para la seguridad alimentaria?"
     },
     {
-      "id": "79I6sFUoCv8",
-      "titulo": "🚨 Abelardo de la Espriella anuncia que derogará las APPA creadas durante el gobierno Petro."
+      "id": "-n7zHOZG0Q4",
+      "titulo": "Áreas de protección para la producción de alimentos- TvAgro por Juan Gonzalo Angel Restrepo"
     },
     {
-      "id": "sp0qkPmlsNU",
-      "titulo": "En las Áreas de Protección para la Producción de Alimentos también está incluida la agroindustria"
+      "id": "XOnIAeLjlJM",
+      "titulo": "Jornada de Sensibilización sobre las Áreas de Protección para la Producción de Alimentos (APPA)."
     },
     {
-      "id": "vocMHfL4WIM",
-      "titulo": "¿Qué son las Áreas de Protección para la Producción de Alimentos – APPAS?"
+      "id": "lQw21nF0RtI",
+      "titulo": "Desde el espacio de escucha sobre las Áreas de Protección para la Producción de Alimentos"
     }
   ]
 }
